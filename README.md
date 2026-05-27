@@ -41,6 +41,7 @@ Relevant code:
 - [`AudioManager`](./Source/DorothysJob/Manager/GameInstanceSubsystem/AudioManager.cpp) - Global audio management subsystem
 - [`BaseWeaponAudioComponent`](./Source/DorothysJob/Component/Weapon/BaseWeaponAudioComponent.cpp) - Weapon audio system
 - [`AudioSettingsManager`](./Source/DorothysJob/Settings/AudioSettingsManager.cpp) - Audio configuration handling
+- [`FMODAutoDestroyer`](./Source/DorothysJob/Audio/FMODAutoDestroyer.cpp) - FMOD instance handling system
 
 ---
 

@@ -33,13 +33,15 @@
 #include "DorothysJob/UI/Utils/InputIcon.h"
 
 void UDialogueScreen::Show() {
-  
+
+  // Bind to dialogue events.
   if (UBaseGameInstance* pGameInstance = Cast<UBaseGameInstance>(GetGameInstance())) {
     if (UDialogsManager* pDialogueManager = pGameInstance->GetDialoguesManager()) {
       m_oDialogueHandle = pDialogueManager->OnLineStarted.AddUObject(this, &UDialogueScreen::HandleDialogueLine);
     }
   }
 
+  // Bind to player controller events.
   if (ABasePlayerController* pPlayerController = Cast<ABasePlayerController>(UGameplayStatics::GetPlayerController(GetWorld(), 0))) {
     pPlayerController->m_oOnDialogueSkipStarts.BindUObject(this, &UDialogueScreen::OnDialogueSkipStarts);
     pPlayerController->m_oOnDialogueSkipEnds.BindUObject(this, &UDialogueScreen::OnDialogueSkipEnds);
@@ -105,6 +107,7 @@ void UDialogueScreen::NativeConstruct() {
 void UDialogueScreen::NativeTick(const FGeometry& _rMyGeometry, float _fInDeltaTime) {
   Super::NativeTick(_rMyGeometry, _fInDeltaTime);
 
+  // Typewritter Effect.
   if (m_bIsTyping) {
     double dCurrentTime = UGameplayStatics::GetRealTimeSeconds(GetWorld());
     if (dCurrentTime - m_fLastCharTime >= m_fTimeBetweenChararacters) {
@@ -113,6 +116,7 @@ void UDialogueScreen::NativeTick(const FGeometry& _rMyGeometry, float _fInDeltaT
     }
   }
 
+  // Skip Button Progress.
   if (m_bIsHolding && m_fHoldStartTime > .0f) {
     float fElapsedTime = UGameplayStatics::GetRealTimeSeconds(GetWorld()) - m_fHoldStartTime;
     float fPercent = FMath::Clamp(fElapsedTime, .0f, 1.f);
@@ -122,16 +126,19 @@ void UDialogueScreen::NativeTick(const FGeometry& _rMyGeometry, float _fInDeltaT
 }
 
 void UDialogueScreen::UpdateDialogueInfo(FDialogData _oDialogueData) {
+  // Update the current character and sprite based on the dialogue data.
   m_iCurrentCharacter = _oDialogueData.m_iCharacterTalking;
   m_sCurrentSprite = _oDialogueData.m_iCharacterTalking == 1 ? _oDialogueData.m_sLeftCharacterSprite : _oDialogueData.m_sRightCharacterSprite;
 
-  // Update Info
+  // Update the character info for both characters, indicating whether they are currently speaking or not.
   UpdateLeftCharacterInfo(_oDialogueData, _oDialogueData.m_iCharacterTalking == 1 ? true : false);
   UpdateRightCharacterInfo(_oDialogueData, _oDialogueData.m_iCharacterTalking == 2 ? true : false);
 
+  // Update the last character and sprite to the current ones for the next tick.
   m_iLastCharacter = m_iCurrentCharacter;
   m_sLastSprite = m_sCurrentSprite;
 
+  // Play the typewritter audio event based on the current character talking.
   if (_oDialogueData.m_iCharacterTalking == 1) {
     if (_oDialogueData.m_sLeftCharacterName == "Dorothy") PlayTypewritterEvent("typewriter_characterIndex", .0f);
     else if (_oDialogueData.m_sLeftCharacterName == "Lord Kaios") PlayTypewritterEvent("typewriter_characterIndex", 1.f);
@@ -143,7 +150,7 @@ void UDialogueScreen::UpdateDialogueInfo(FDialogData _oDialogueData) {
     else if (_oDialogueData.m_sRightCharacterName == "Gorch") PlayTypewritterEvent("typewriter_characterIndex", 2.f);
   }
 
-  // Dialogue Text
+  // Change the text to the first line of the dialogue.
   SetText(_oDialogueData.m_sDialogText.ToString());
 }
 
@@ -153,6 +160,7 @@ void UDialogueScreen::UpdateLeftCharacterInfo(FDialogData _oDialogueData, bool _
     return;
   }
 
+  // Play talking animation if the character changed.
   if (IsValid(m_pLeftCharacterTalks) && m_iLastCharacter != m_iCurrentCharacter) {
     PlayAnimation(
       m_pLeftCharacterTalks,
@@ -161,6 +169,7 @@ void UDialogueScreen::UpdateLeftCharacterInfo(FDialogData _oDialogueData, bool _
       m_iCurrentCharacter == 1 ? EUMGSequencePlayMode::Forward : EUMGSequencePlayMode::Reverse);
   }
 
+  // Play talking sound if the character changed and is currently speaking.
   if (_bSpeaking && m_sLastSprite != m_sCurrentSprite) {
     TObjectPtr<const USpriteDataAsset> pDataAsset;
     TObjectPtr<const USpriteDataAsset>* pFoundData = m_pGameInstance->m_mSprites.Find(_oDialogueData.m_sLeftCharacterName);
@@ -179,10 +188,10 @@ void UDialogueScreen::UpdateLeftCharacterInfo(FDialogData _oDialogueData, bool _
     }
   }
 
-  // Character Sprites
   if (IsValid(m_bLeftCharacterImage)) {
     UTexture2D* pTexture = nullptr;
     TObjectPtr<const USpriteDataAsset> pDataAsset;
+    // Find the Sprite Data Asset for the current character.
     TObjectPtr<const USpriteDataAsset>* pFoundData = m_pGameInstance->m_mSprites.Find(_oDialogueData.m_sLeftCharacterName);
     if (!pFoundData || !IsValid(*pFoundData)) {
       UE_LOG(LogTemp, Error, TEXT("No asset found with <%s>?"), *_oDialogueData.m_sLeftCharacterName.ToString());
@@ -198,6 +207,7 @@ void UDialogueScreen::UpdateLeftCharacterInfo(FDialogData _oDialogueData, bool _
       else pTexture = pFoundTexture->m_pTexture;
     }
 
+    // Set the character image, visibility and color based on whether the texture was found and if the character is currently speaking.
     m_bLeftCharacterImage->SetBrushFromTexture(IsValid(pTexture) ? pTexture : nullptr);
     m_bLeftCharacterImage->SetVisibility(
       IsValid(pTexture) ?
@@ -211,11 +221,12 @@ void UDialogueScreen::UpdateLeftCharacterInfo(FDialogData _oDialogueData, bool _
     );
   }
 
+  // Set the visibility of the emitter and name based on whether the character is currently speaking.
   ESlateVisibility oVisibility = _bSpeaking ?
     ESlateVisibility::SelfHitTestInvisible :
     ESlateVisibility::Hidden;
 
-  // Emitter Name
+  // Change the emitter name to match the current character.
   if (IsValid(m_pLeftEmitterImage)) m_pLeftEmitterImage->SetVisibility(oVisibility);
   if (IsValid(m_pLeftEmitterImage)) {
     m_pLeftEmitterText->SetVisibility(oVisibility);
@@ -229,6 +240,7 @@ void UDialogueScreen::UpdateRightCharacterInfo(FDialogData _oDialogueData, bool 
     return;
   }
 
+  // Play talking animation if the character changed.
   if (IsValid(m_pRightCharacterTalks) && m_iLastCharacter != m_iCurrentCharacter) {
     PlayAnimation(
       m_pRightCharacterTalks,
@@ -237,6 +249,7 @@ void UDialogueScreen::UpdateRightCharacterInfo(FDialogData _oDialogueData, bool 
       m_iCurrentCharacter == 2 ? EUMGSequencePlayMode::Forward : EUMGSequencePlayMode::Reverse);
   }
 
+  // Play talking sound if the character changed and is currently speaking.
   if (_bSpeaking && m_sLastSprite != m_sCurrentSprite) {
     TObjectPtr<const USpriteDataAsset> pDataAsset;
     TObjectPtr<const USpriteDataAsset>* pFoundData = m_pGameInstance->m_mSprites.Find(_oDialogueData.m_sRightCharacterName);
@@ -259,6 +272,7 @@ void UDialogueScreen::UpdateRightCharacterInfo(FDialogData _oDialogueData, bool 
   if (IsValid(m_bRightCharacterImage)) {
     UTexture2D* pTexture = nullptr;
     TObjectPtr<const USpriteDataAsset> pDataAsset;
+    // Find the Sprite Data Asset for the current character.
     TObjectPtr<const USpriteDataAsset>* pFoundData = m_pGameInstance->m_mSprites.Find(_oDialogueData.m_sRightCharacterName);
     if (!pFoundData || !IsValid(*pFoundData)) {
       UE_LOG(LogTemp, Error, TEXT("No asset found with <%s>?"), *_oDialogueData.m_sRightCharacterName.ToString());
@@ -274,6 +288,7 @@ void UDialogueScreen::UpdateRightCharacterInfo(FDialogData _oDialogueData, bool 
       else pTexture = pFoundTexture->m_pTexture;
     }
 
+    // Set the character image, visibility and color based on whether the texture was found and if the character is currently speaking.
     m_bRightCharacterImage->SetBrushFromTexture(pTexture);
     m_bRightCharacterImage->SetVisibility(
       IsValid(pTexture) ?
@@ -287,11 +302,12 @@ void UDialogueScreen::UpdateRightCharacterInfo(FDialogData _oDialogueData, bool 
     );
   }
 
+  // Set the visibility of the emitter and name based on whether the character is currently speaking.
   ESlateVisibility oVisibility = _bSpeaking ?
     ESlateVisibility::SelfHitTestInvisible :
     ESlateVisibility::Hidden;
 
-  // Emitter Name
+  // Change the emitter name to match the current character.
   if (IsValid(m_pRightEmitterImage)) m_pRightEmitterImage->SetVisibility(oVisibility);
   if (IsValid(m_pRightEmitterImage)) {
     m_pRightEmitterText->SetVisibility(oVisibility);
@@ -300,6 +316,7 @@ void UDialogueScreen::UpdateRightCharacterInfo(FDialogData _oDialogueData, bool 
 }
 
 void UDialogueScreen::OnDialogueSkipStarts() {
+  // Start counting the time the player has been holding the skip button and show the skip button progress bar.
   m_fHoldStartTime = UGameplayStatics::GetRealTimeSeconds(GetWorld());
   m_bIsHolding = true;
 
@@ -307,6 +324,7 @@ void UDialogueScreen::OnDialogueSkipStarts() {
 }
 
 void UDialogueScreen::OnDialogueSkipEnds() {
+  // Reset the skip button progress and hide it.
   m_fHoldStartTime = -1.f;
   m_bIsHolding = false;
 
@@ -319,11 +337,13 @@ void UDialogueScreen::OnDialogueSkipEnds() {
 void UDialogueScreen::HandleDialogueLine() {
   if (UBaseGameInstance* pGameInstance = Cast<UBaseGameInstance>(GetGameInstance())) {
     if (UDialogsManager* pDialogueManager = pGameInstance->GetDialoguesManager()) {
+      // If the line is already printed, update the dialogue info to show the next line.
       if (pDialogueManager->m_bLineIsPrinted) {
         UpdateDialogueInfo(pDialogueManager->GetCurrentDialogToDisplay());
 
         pDialogueManager->m_bLineIsPrinted = false;
       }
+      // If the line is not printed, it means the player has skipped the dialogue, so we need to show the full line immediately.
       else {
         if (IsValid(m_pTextBox)) m_pTextBox->SetText(pDialogueManager->GetCurrentDialogToDisplay().m_sDialogText);
 
@@ -336,6 +356,7 @@ void UDialogueScreen::HandleDialogueLine() {
 }
 
 void UDialogueScreen::SetText(const FString& _rText) {
+  // Reset the typewritter effect variables to start showing the new text from the beginning.
   m_iCharacterIndex = 0;
   m_iTextLength = _rText.Len();
   m_sCurrentText = _rText;
@@ -344,6 +365,7 @@ void UDialogueScreen::SetText(const FString& _rText) {
 }
 
 void UDialogueScreen::SetLetter() {
+  // This function is responsible for showing the text with a typewritter effect.
   FString sCurrentText = m_sCurrentText;
   FString sResultText;
   int32 visibleCharCount = 0;
@@ -352,6 +374,7 @@ void UDialogueScreen::SetLetter() {
   bool bInsideTag = false;
   FString sCurrentTag;
 
+  // Iterate through the characters of the current text and build the result text based on the typewritter effect rules.
   for (int32 iIndex = 0; iIndex < sCurrentText.Len(); ++iIndex) {
     TCHAR cCurrentCharacter = sCurrentText[iIndex];
 
@@ -378,13 +401,16 @@ void UDialogueScreen::SetLetter() {
     }
   }
 
+  // Close any open tags at the end of the visible text to ensure proper formatting.
   for (int32 i = 0; i < iOpenTagCount; ++i) {
     sResultText += "</>";
   }
 
+  // Update the text box with the new result text and increment the character index for the next tick.
   m_pTextBox->SetText(FText::FromString(sResultText));
   m_iCharacterIndex++;
 
+  // If the character index exceeds the text length, it means the full line has been shown.
   if (m_iCharacterIndex > m_iTextLength) {
     if (UBaseGameInstance* pGameInstance = Cast<UBaseGameInstance>(GetGameInstance())) {
       if (UDialogsManager* pDialogueManager = pGameInstance->GetDialoguesManager()) {
@@ -400,6 +426,7 @@ void UDialogueScreen::SetLetter() {
 void UDialogueScreen::PlayTypewritterEvent(FName _sName, float _fValue) {
   if (UBaseGameInstance* pGameInstance = Cast<UBaseGameInstance>(GetGameInstance())) {
     if (UAudioManager* pAudioManager = pGameInstance->GetSubsystem<UAudioManager>()) {
+      // Play the typewritter event with the character index parameter to differentiate the sound based on the character talking.
       pAudioManager->PlayEventInstanceWithParameters(m_pTypewrittingEvent, { {_sName, _fValue} });
     }
   }
@@ -409,6 +436,7 @@ void UDialogueScreen::PlaySilentKillerEvent() {
   if (!IsValid(m_pGameInstance)) return;
 
   if (UAudioManager* pAudioManager = m_pGameInstance->GetSubsystem<UAudioManager>()) {
+    // Play the silent killer event to stop the typewritter sound when the line is fully shown or skipped.
     pAudioManager->PlaySound2D(this, m_pGameInstance->m_pBabyKillerEvent);
   }
 }

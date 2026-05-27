@@ -14,14 +14,13 @@
 class ABasePlayer;
 
 UCLASS()
-class DOROTHYSJOB_API UPristineTime : public UBaseConsumable
-{
+class DOROTHYSJOB_API UPristineTime : public UBaseConsumable {
 	GENERATED_BODY()
 	
 public:
 	/**
-	 * @brief 
-	 * @param _pPlayer 
+   * @brief Uses the Pristine Time consumable, healing the player to full health and triggering related effects.
+   * @param _pPlayer The player using the consumable.
 	 */
 	virtual bool Use(ABasePlayer* _pPlayer) override;
 };

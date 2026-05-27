@@ -14,14 +14,13 @@
 class ABasePlayer;
 
 UCLASS()
-class DOROTHYSJOB_API UMrsClean : public USpawnableConsumable
-{
-	GENERATED_BODY()
-	
+class DOROTHYSJOB_API UMrsClean : public USpawnableConsumable {
+  GENERATED_BODY()
+
 public:
-	/**
-	 * @brief 
-	 * @param _pPlayer 
-	 */
-	virtual bool Use(ABasePlayer* _pPlayer) override;
+  /**
+   * @brief Uses the Mrs Clean consumable.
+   * @param _pPlayer The player using the consumable.
+   */
+  virtual bool Use(ABasePlayer* _pPlayer) override;
 };

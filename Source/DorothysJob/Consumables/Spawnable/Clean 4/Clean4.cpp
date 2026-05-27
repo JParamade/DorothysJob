@@ -9,7 +9,6 @@
 
 #include "DorothysJob/Actor/Character/Player/BasePlayer.h"
 
-bool UClean4::Use(ABasePlayer* _pPlayer)
-{
+bool UClean4::Use(ABasePlayer* _pPlayer) {
     return Super::Use(_pPlayer);
 }

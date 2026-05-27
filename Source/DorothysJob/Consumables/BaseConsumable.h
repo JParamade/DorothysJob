@@ -14,23 +14,30 @@ class ABasePlayer;
 class UAchievementSubsystem;
 
 UCLASS()
-class DOROTHYSJOB_API UBaseConsumable : public UObject
-{
-	GENERATED_BODY()
-	
+class DOROTHYSJOB_API UBaseConsumable : public UObject {
+  GENERATED_BODY()
+
 public:
-	/**
-	 * @brief 
-	 */
-	virtual bool Use(ABasePlayer* _pPlayer);
+  /**
+   * @brief Uses the consumable item.
+   * @param _pPlayer The player using the consumable.
+   * @return True if the consumable was used successfully, false otherwise.
+   */
+  virtual bool Use(ABasePlayer* _pPlayer);
 
-	/**
-	 * @brief 
-	 */
-	uint32 m_uStackQuantity;
+  /**
+   * @brief The quantity of the consumable item available.
+   */
+  uint32 m_uStackQuantity;
 
-	int32 m_iRewardAddedAmount;
+  /**
+   * @brief The amount of reward added when the consumable is used.
+   */
+  int32 m_iRewardAddedAmount;
 
-	UPROPERTY()
-	bool m_bAchievementManager = false;
+  /**
+   * @brief Indicates whether the achievement manager is enabled for this consumable.
+   */
+  UPROPERTY()
+  bool m_bAchievementManager = false;
 };

@@ -19,69 +19,75 @@ namespace FMOD {
 }
 
 UCLASS()
-class DOROTHYSJOB_API UB13Vitamin : public UDurableConsumable
-{
+class DOROTHYSJOB_API UB13Vitamin : public UDurableConsumable {
   GENERATED_BODY()
 
 public:
   /**
-   * @brief
-   * @param _pPlayer
+   * @brief Uses the B13 Vitamin consumable, applying its effect to the player and starting a timer for the effect duration.
+   * @param _pPlayer The player using the consumable.
    */
   virtual bool Use(ABasePlayer* _pPlayer) override;
 
 protected:
   /**
-   * @brief
+   * @brief Called when the B13 Vitamin's effect starts, applying the specific effect to the player.
+   * @param _pPlayer The player using the consumable.
    */
   virtual void OnEffectStart(ABasePlayer* _pPlayer) override;
-
   /**
-   * @brief
+   * @brief Called when the B13 Vitamin's effect ends, removing the specific effect from the player and allowing the consumable to be used again.
+   * @param _pPlayer The player using the consumable.
    */
   virtual void OnEffectEnd(ABasePlayer* _pPlayer) override;
 
 private:
+  /**
+   * @brief FMOD Event Instance for the buff sound effect.
+   */
   FMOD::Studio::EventInstance* pBuffEvent = nullptr;
+  /**
+   * @brief FMOD Event Instance for the breathing sound effect.
+   */
   FMOD::Studio::EventInstance* pBreatheEvent = nullptr;
 
   /**
-   * @brief
+   * @brief Handles pausing FMOD events when the game is paused to ensure they are paused correctly.
    */
   UFUNCTION()
   virtual void PauseFMODEvents();
   /**
-   * @brief
+   * @brief Handles unpausing FMOD events when the game is unpaused to ensure they resume correctly.
    */
   UFUNCTION()
   virtual void UnpauseFMODEvents();
 
   /**
-   * @brief
+   * @brief Indicates whether the buff FMOD event is currently paused.
    */
   bool m_bBuffPaused = false;
   /**
-   * @brief 
+   * @brief Indicates whether the breathing FMOD event is currently paused.
    */
   bool m_bBreathePaused = false;
 
   /**
-   * @brief
+   * @brief Delegate handle for managing the pause event binding to ensure proper unbinding when the effect ends.
    */
   FDelegateHandle m_oPauseHandle;
   /**
-   * @brief
+   * @brief Delegate handle for managing the unpause event binding to ensure proper unbinding when the effect ends.
    */
   FDelegateHandle m_oUnpauseHandle;
 
   /**
-   * @brief
+   * @brief Movement speed increment multiplier applied to the player when the B13 Vitamin effect is active.
    */
   UPROPERTY(EditAnywhere, Category = "Bola 13 | Consumables", meta = (DisplayName = "Movement Speed Increment"))
   float m_fMovementSpeedIncrement = 1.3f;
 
   /**
-   * @brief
+   * @brief Attack speed multiplier applied to the player when the B13 Vitamin effect is active.
    */
   UPROPERTY(EditAnywhere, Category = "Bola 13 | Consumables", meta = (DisplayName = "Attack Speed Increment"))
   float m_fAttackSpeedMultiplier = 2.0f;

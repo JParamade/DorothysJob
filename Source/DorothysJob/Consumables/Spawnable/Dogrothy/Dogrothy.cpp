@@ -11,8 +11,8 @@
 #include "DorothysJob/Manager/BaseGameInstance.h"
 #include "DorothysJob/Manager/GameInstanceSubsystem/AchievementSubsystem.h"
 
-bool UDogrothy::Use(ABasePlayer* _pPlayer)
-{
+bool UDogrothy::Use(ABasePlayer* _pPlayer) {
+  // Achievement Logic.
   if (UBaseGameInstance* pGameInstance = Cast<UBaseGameInstance>(GetWorld()->GetGameInstance())) {
     if (UAchievementSubsystem* pAchSubsystem = pGameInstance->GetSubsystem<UAchievementSubsystem>()) {
       pAchSubsystem->SetDogsDeployAchievement();;

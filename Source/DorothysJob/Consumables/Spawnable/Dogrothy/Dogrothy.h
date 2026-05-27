@@ -14,14 +14,13 @@
 class ABasePlayer;
 
 UCLASS()
-class DOROTHYSJOB_API UDogrothy : public USpawnableConsumable
-{
+class DOROTHYSJOB_API UDogrothy : public USpawnableConsumable {
 	GENERATED_BODY()
 	
 public:
 	/**
-	 * @brief 
-	 * @param _pPlayer 
+   * @brief Uses the Dogrothy consumable.
+   * @param _pPlayer The player using the consumable.
 	 */
 	virtual bool Use(ABasePlayer* _pPlayer) override;
 };

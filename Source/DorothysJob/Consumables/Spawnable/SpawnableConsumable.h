@@ -15,29 +15,28 @@ class ABasePlayer;
 class ABaseConsumableActor;
 
 UCLASS()
-class DOROTHYSJOB_API USpawnableConsumable : public UBaseConsumable
-{
-	GENERATED_BODY()
+class DOROTHYSJOB_API USpawnableConsumable : public UBaseConsumable {
+  GENERATED_BODY()
 
 public:
-	/**
-	 * @brief
-	 * @param _pPlayer
-	 */
-	virtual bool Use(ABasePlayer* _pPlayer) override;
+  /**
+   * @brief Uses the consumable item.
+   * @param _pPlayer The player using the consumable.
+   */
+  virtual bool Use(ABasePlayer* _pPlayer) override;
 
-	/**
-	 * @brief 
-	 */
-	TSubclassOf<ABaseConsumableActor> m_oActorToSpawn;
+  /**
+   * @brief The class of the actor to spawn when the consumable is used.
+   */
+  TSubclassOf<ABaseConsumableActor> m_oActorToSpawn;
 
 private:
 
   /**
-   * @brief It returns a location to spawn the consumable. If It can't find a location to spawn in the max tries, it will return false.
-   * @param _pPlayer -> Player that is traying to spawn the consumable.
-   * @param vLocationToSapwn_ -> Consumable location to spawn. Out parameter.
-   * @return True if it had been able to found a location to spawn.
+   * @brief Gets a random location to spawn the consumable.
+   * @param _pPlayer The player attempting to spawn the consumable.
+   * @param vLocationToSpawn The location to spawn the consumable.
+   * @return True if a location was found, false otherwise.
    */
-  bool GetRandomLocationToSpawn(const ABasePlayer* _pPlayer, FVector& vLocationToSapwn_);
+  bool GetRandomLocationToSpawn(const ABasePlayer* _pPlayer, FVector& vLocationToSpawn);
 };

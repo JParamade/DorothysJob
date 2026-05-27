@@ -14,39 +14,28 @@
 #include <DorothysJob/Manager/BaseGameInstance.h>
 #include <DorothysJob/Manager/GameInstanceSubsystem/AchievementSubsystem.h>
 
-bool UPristineTime::Use(ABasePlayer* _pPlayer)
-{
-  if (m_uStackQuantity <= 0 || !IsValid(_pPlayer) || _pPlayer->GetMaxHealth() == _pPlayer->GetCurrentHealth())
-  {
-    return false;
-  }
+bool UPristineTime::Use(ABasePlayer* _pPlayer) {
+  // Check if the consumable can be used: it must have quantity, the player must be valid, and the player's health must not be full.
+  if (m_uStackQuantity <= 0 || !IsValid(_pPlayer) || _pPlayer->GetMaxHealth() == _pPlayer->GetCurrentHealth()) return false;
 
+  // Get the game instance and ensure it's valid.
   UBaseGameInstance* pBaseGameInstance = Cast<UBaseGameInstance>(GetWorld()->GetGameInstance());
-  if (!pBaseGameInstance)
-  {
-    return false;
-  }
+  if (!pBaseGameInstance) return false;
 
+  // Achievement Logic.
   UAchievementSubsystem* pAchSubsystem = pBaseGameInstance->GetSubsystem<UAchievementSubsystem>();
-  if (IsValid(pAchSubsystem))
-  {
+  if (IsValid(pAchSubsystem)) {
     const bool bIsStinky = _pPlayer->GetIsPlayerStinky();
     const bool bHasB13 = _pPlayer->GetIsPlayerWithB13();
 
-    if (bIsStinky && bHasB13)
-    {
-      pAchSubsystem->UnlockAchievement("HowRefreshing");
-    }
-
-    if (bIsStinky)
-    {
-      pAchSubsystem->AddProgress("UpUpAndAwash", 1);
-    }
+    if (bIsStinky && bHasB13) pAchSubsystem->UnlockAchievement("HowRefreshing");
+    if (bIsStinky) pAchSubsystem->AddProgress("UpUpAndAwash", 1);
 
     pAchSubsystem->m_bEquipApron = true;
     pAchSubsystem->m_bApronUse = true;
   }
 
+  // Heal the player to full health and trigger the Pristine Time visual effects.
   _pPlayer->Heal(_pPlayer->GetMaxHealth());
   _pPlayer->PristineTimeVFX();
 

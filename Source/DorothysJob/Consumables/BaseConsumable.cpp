@@ -10,9 +10,8 @@
 #include "DorothysJob/Manager/GameInstanceSubsystem/AchievementSubsystem.h"
 
 bool UBaseConsumable::Use(ABasePlayer* _pPlayer) {
-  if (!m_bAchievementManager)
-  {
-    //m_bHasConsumableBeenUse = true;
+  // Steam Achievement Logic.
+  if (!m_bAchievementManager) {
     if (UBaseGameInstance* pGameInstance = Cast<UBaseGameInstance>(GetWorld()->GetGameInstance())) {
       if (UAchievementSubsystem* pAchSubsystem = pGameInstance->GetSubsystem<UAchievementSubsystem>()) {
         m_bAchievementManager = true;
@@ -25,13 +24,12 @@ bool UBaseConsumable::Use(ABasePlayer* _pPlayer) {
     }
   }
 
-  if (m_uStackQuantity <= 0) {
-    // Add feedback.
+  // Check if there are any consumables left in the stack.
+  if (m_uStackQuantity <= 0) return false;
 
-    return false;
-  }
-
+  // Remove one consumable from the stack.
   m_uStackQuantity--;
 
+  // Add the reward to the player.
   return true;
 }

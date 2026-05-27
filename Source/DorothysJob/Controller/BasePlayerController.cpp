@@ -29,6 +29,7 @@
 void ABasePlayerController::BeginPlay() {
   Super::BeginPlay();
 
+  // Enhanced Input Setup
   if (UEnhancedInputComponent* pEnhancedInputComponent = Cast<UEnhancedInputComponent>(InputComponent)) {
     pEnhancedInputComponent->BindAction(m_pNavigateAction, ETriggerEvent::Triggered, this, &ABasePlayerController::HandleNavigation);
     pEnhancedInputComponent->BindAction(m_pConfirmAction, ETriggerEvent::Triggered, this, &ABasePlayerController::HandleConfirmPressed);
@@ -43,8 +44,10 @@ void ABasePlayerController::BeginPlay() {
     pEnhancedInputComponent->BindAction(m_pChangeTabAction, ETriggerEvent::Triggered, this, &ABasePlayerController::HandleChangeTabKey);
   }
 
+  // Set current input mode to the starting input mode.
   SwitchInputMode(m_eStartInputMode);
 
+  // Add the mouse indicator to the viewport if it's valid.
   if (IsValid(m_pMouseIndicator)) m_pMouseIndicator->AddToViewport(3);
 }
 
@@ -53,6 +56,7 @@ void ABasePlayerController::Tick(float _fDeltaTime) {
 
   FVector2D mousePosition;
 
+  // Check the most recently used input device to determine if we should show the mouse indicator.
   if (UBaseGameInstance* pGameInstance = Cast<UBaseGameInstance>(GetGameInstance())) {
     UInputDeviceSubsystem* pInputDeviceSubsystem = pGameInstance->GetEngine()->GetEngineSubsystem<UInputDeviceSubsystem>();
     if (IsValid(pInputDeviceSubsystem)) {
@@ -62,18 +66,17 @@ void ABasePlayerController::Tick(float _fDeltaTime) {
     }
   }
 
-  // m_bCanShowIndicator = (FSlateApplication::IsInitialized() && FSlateApplication::Get().IsGamepadAttached()) ? false : true;
 
-  if (!m_bCanShowIndicator) { 
-    // we won't show the indicator
+  // If we can't show the indicator, hide it and exit early.
+  if (!m_bCanShowIndicator) {
     m_pMouseIndicator->Hide();
     return;
   }
 
+  // If we can show the indicator, make sure it's visible and update its position to match the mouse cursor.
   m_pMouseIndicator->Show();
 
-  if (!GetMousePosition(mousePosition.X, mousePosition.Y)) { 
-    // we did not get the mouse position
+  if (!GetMousePosition(mousePosition.X, mousePosition.Y)) {
     return;
   }
 
@@ -137,7 +140,7 @@ void ABasePlayerController::SwitchNavigationMode(ENavigationInputType _eNavigati
 }
 
 TObjectPtr<UGeneralFocusManager> ABasePlayerController::GetGeneralFocusManager() {
-  // Lazy Initialization
+  // Lazy initialization of the General Focus Manager.
   if (!IsValid(pGeneralFocusManager)) pGeneralFocusManager = NewObject<UGeneralFocusManager>(this);
 
   return pGeneralFocusManager;
@@ -154,11 +157,10 @@ void ABasePlayerController::HandleNavigation(const FInputActionValue& _rIAValue)
   if (m_eCurrentNavigationMode == ENavigationInputType::FREE)
   {
     SwitchNavigationMode(ENavigationInputType::FOCUS);
-    // passing the value to the consumables menu
+    // Pass the horizontal input value to the Level Manager to handle carousel navigation when switching from Free to Focus mode.
     ULevelManager* pLevelManager = GetWorld()->GetSubsystem<ULevelManager>();
-    if (IsValid(pLevelManager))
-    { // we send the value here
-      int32 iDirection = (_rIAValue.Get<FVector2D>().X > 0) ? 1 : (_rIAValue.Get<FVector2D>().X < 0) ? -1 : 0; // direction for the carousel
+    if (IsValid(pLevelManager)) {
+      int32 iDirection = (_rIAValue.Get<FVector2D>().X > 0) ? 1 : (_rIAValue.Get<FVector2D>().X < 0) ? -1 : 0;
       pLevelManager->OnReceivedConsumableNavigation.ExecuteIfBound(iDirection);
     }
     return;
@@ -191,46 +193,38 @@ void ABasePlayerController::HandleConfirmReleased(const FInputActionValue& _rIAV
 
 void ABasePlayerController::HandleCancel(const FInputActionValue& _rIAValue) {
   ULevelManager* pLevelManager = GetWorld()->GetSubsystem<ULevelManager>();
-  if (!IsValid(pLevelManager))
-  {
-    return;
-  }
+  if (!IsValid(pLevelManager)) return;
+
+  // Only handle cancel input if currently in a game state where cancellation is allowed.
   EBaseGameState eGameState = pLevelManager->GetCurrentGameState();
-  if ((eGameState == EBaseGameState::SELECTWEAPON) || (eGameState == EBaseGameState::SELECTCONSUMABLE) || (eGameState == EBaseGameState::PRELEVEL) || (eGameState == EBaseGameState::PAUSED) || (eGameState == EBaseGameState::REPLAY))
-  {
-    if (IsValid(pGeneralFocusManager))
-    {
-      pGeneralFocusManager->Cancel();
-    }
+  if ((eGameState == EBaseGameState::SELECTWEAPON) || (eGameState == EBaseGameState::SELECTCONSUMABLE) || (eGameState == EBaseGameState::PRELEVEL) || (eGameState == EBaseGameState::PAUSED) || (eGameState == EBaseGameState::REPLAY)) {
+    if (IsValid(pGeneralFocusManager)) pGeneralFocusManager->Cancel();
 
     pLevelManager->OnCancelButtonPressed.ExecuteIfBound(true);
   }
 }
 
 void ABasePlayerController::HandleMouseMovement(const FInputActionValue& _rIAValue) {
+  // If there's significant mouse movement, switch to Free navigation mode.
   FVector2D vDelta = _rIAValue.Get<FVector2D>();
   if (!vDelta.IsNearlyZero()) {
     if (IsValid(pGeneralFocusManager)) SwitchNavigationMode(ENavigationInputType::FREE);
   }
 }
 
-void ABasePlayerController::HandleEventNext(const FInputActionValue& _rIAValue)
-{
+void ABasePlayerController::HandleEventNext(const FInputActionValue& _rIAValue) {
   UBaseGameInstance* GameInstance = Cast<UBaseGameInstance>(GetWorld()->GetGameInstance());
-  if (!GameInstance)
-  {
-    UE_LOG(LogTemp, Warning, TEXT("GameIstance no encontrado"));
+  if (!GameInstance) {
+    UE_LOG(LogTemp, Warning, TEXT("GameInstance not found."));
     return;
   }
 
-  // Coger del event manager del base istance y llamar a siguiente del event manager.
   UEventManager* pEventManager = GameInstance->GetEventManager();
   pEventManager->OnEventContinue();
 }
 
 void ABasePlayerController::HandleDialogueStartSkip(const FInputActionValue& _rIAValue) {
-  if (m_bIsCinematicOn)
-  {
+  if (m_bIsCinematicOn) {
     m_oOnCinematicSkipStarts.ExecuteIfBound();
     return;
   }
@@ -238,8 +232,7 @@ void ABasePlayerController::HandleDialogueStartSkip(const FInputActionValue& _rI
 }
 
 void ABasePlayerController::HandleDialogueEndSkip(const FInputActionValue& _rIAValue) {
-  if (m_bIsCinematicOn)
-  {
+  if (m_bIsCinematicOn) {
     m_oOnCinematicSkipEnds.ExecuteIfBound();
     return;
   }
@@ -248,44 +241,35 @@ void ABasePlayerController::HandleDialogueEndSkip(const FInputActionValue& _rIAV
 
 void ABasePlayerController::HandleDialogueSkip(const FInputActionValue& _rIAValue) {
   UBaseGameInstance* GameInstance = Cast<UBaseGameInstance>(GetWorld()->GetGameInstance());
-  if (!GameInstance)
-  {
+  if (!GameInstance) {
     UE_LOG(LogTemp, Warning, TEXT("GameIstance no encontrado"));
     return;
   }
 
-  if (m_bIsCinematicOn)
-  {
+  if (m_bIsCinematicOn) {
     m_oOnCinematicSkipEnds.ExecuteIfBound();
     m_oOnCinematicSkip.ExecuteIfBound();
     return;
   }
-  // LLamra a eskipear dialogo del event manager.
+
   UEventManager* pEventManager = GameInstance->GetEventManager();
-  if (pEventManager)
-  {
+  if (pEventManager) {
     m_oOnDialogueSkipEnds.ExecuteIfBound();
 
     pEventManager->OnSkipEvent();
   }
 }
 
-void ABasePlayerController::HandlePauseKey(const FInputActionValue& _tIAValue)
-{
+void ABasePlayerController::HandlePauseKey(const FInputActionValue& _tIAValue) {
   ULevelManager* pLevelManager = GetWorld()->GetSubsystem<ULevelManager>();
-  if (IsValid(pLevelManager) && (pLevelManager->GetCurrentGameState() == EBaseGameState::PAUSED))
-  {
+  if (IsValid(pLevelManager) && (pLevelManager->GetCurrentGameState() == EBaseGameState::PAUSED)) {
     pLevelManager->OnCancelButtonPressed.ExecuteIfBound(true);
   }
 }
 
-void ABasePlayerController::HandleChangeTabKey(const FInputActionValue& _tIAValue)
-{
+void ABasePlayerController::HandleChangeTabKey(const FInputActionValue& _tIAValue) {
   ULevelManager* pLevelManager = GetWorld()->GetSubsystem<ULevelManager>();
-  if (!IsValid(pLevelManager))
-  {
-    return;
-  }
+  if (!IsValid(pLevelManager)) return;
 
   pLevelManager->OnChangeTabButtonPressed.ExecuteIfBound(_tIAValue.Get<float>() > 0.f);
 }
