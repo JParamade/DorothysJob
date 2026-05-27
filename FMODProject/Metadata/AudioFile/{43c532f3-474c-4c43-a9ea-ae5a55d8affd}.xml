@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{43c532f3-474c-4c43-a9ea-ae5a55d8affd}">
+		<property name="assetPath">
+			<value>SoundFX/postBeta/auroraDustBunny/hop/dustBunny_hop_06.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.66551020408163264</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{29e46ac1-d866-4f84-87b1-b5857773a619}</destination>
+		</relationship>
+	</object>
+</objects>

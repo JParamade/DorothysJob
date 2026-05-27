@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{bff0d4a7-3f8a-46c2-b4f7-a7a7614660e6}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
+		<property name="assetPath">
+			<value>SoundFX/Characters/NPCs/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{29e46ac1-d866-4f84-87b1-b5857773a619}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c29181a5-6833-44a7-a258-52cceb4efc75}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
+		<property name="assetPath">
+			<value>SoundFX/Characters/Enemies/General/SSFX_WEA_general_wetHit.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.48496598639455785</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{29e46ac1-d866-4f84-87b1-b5857773a619}</destination>
+		</relationship>
+	</object>
+</objects>

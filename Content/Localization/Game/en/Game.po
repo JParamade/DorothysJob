@@ -1,0 +1,3823 @@
+﻿# Game English translation.
+# Fill out your copyright notice in the Description page of Project Settings.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Game\n"
+"POT-Creation-Date: 2025-10-09 19:13\n"
+"PO-Revision-Date: 2025-10-09 19:13\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Key:	HUB_EXIT_DENY_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,HUB_EXIT_DENY_1"
+msgid "HUB_EXIT_DENY_1"
+msgstr "I should see everything before starting my shift..."
+
+#. Key:	LEVEL_0_END_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_1"
+msgid "LEVEL_0_END_1"
+msgstr "Done and dusted."
+
+#. Key:	LEVEL_0_END_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_10"
+msgid "LEVEL_0_END_10"
+msgstr "I think those days are still far Lord. You know my pride is set on keeping this place spotless from top to bottom."
+
+#. Key:	LEVEL_0_END_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_11"
+msgid "LEVEL_0_END_11"
+msgstr "True that, true that… tho, I am sure even a maid of <b>your talents</> needs a breather from time to time, no?"
+
+#. Key:	LEVEL_0_END_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_12"
+msgid "LEVEL_0_END_12"
+msgstr "When was the last time you went on a holiday? Five… six decades ago? How old are you anyways? Three, four hundred years old?"
+
+#. Key:	LEVEL_0_END_13
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_13"
+msgid "LEVEL_0_END_13"
+msgstr "I don’t need a break. Doing my job is its own reward!"
+
+#. Key:	LEVEL_0_END_14
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_14"
+msgid "LEVEL_0_END_14"
+msgstr "Hhmf… very well then, suit yourself. You paragon of cleanliness, you…"
+
+#. Key:	LEVEL_0_END_15
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_15"
+msgid "LEVEL_0_END_15"
+msgstr "Astounding job, my dear Dorothy. You can go rest those tired arms of your now. <c>Toodles!!</>"
+
+#. Key:	LEVEL_0_END_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_2"
+msgid "LEVEL_0_END_2"
+msgstr "Excellent work! And not a minute too soon. Looks like Lord Kaios is coming, that's my cue to hide!"
+
+#. Key:	LEVEL_0_END_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_3"
+msgid "LEVEL_0_END_3"
+msgstr "Ah, nothing beats the feeling of coming back to a clean home after a day of <b>PURE</> conquering!"
+
+#. Key:	LEVEL_0_END_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_4"
+msgid "LEVEL_0_END_4"
+msgstr "I mean, just <c>look</> at this floor! So clean, so polished. Why, I can see my own reflection staring back at me… <c>Helloooooo</> handsome! Heh..."
+
+#. Key:	LEVEL_0_END_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_5"
+msgid "LEVEL_0_END_5"
+msgstr "I see everything is in order, as per usual. No? Nothing unusual, nothing <b>too</> ghastly to deal with I imagine, hmmm?"
+
+#. Key:	LEVEL_0_END_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_6"
+msgid "LEVEL_0_END_6"
+msgstr "Everything in order, everything clean and spotless Lord."
+
+#. Key:	LEVEL_0_END_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_7"
+msgid "LEVEL_0_END_7"
+msgstr "Fantastic! I know I can always count on you to get the job done, Dorothy. But alas! How will I manage when the day comes you choose to…"
+
+#. Key:	LEVEL_0_END_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_8"
+msgid "LEVEL_0_END_8"
+msgstr "<brc>R E T I R E…?</>"
+
+#. Key:	LEVEL_0_END_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_0_END_9"
+msgid "LEVEL_0_END_9"
+msgstr "You know? Search for greener pastures? throw in the towel? hang your apron?"
+
+#. Key:	LEVEL_10_END_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_1"
+msgid "LEVEL_10_END_1"
+msgstr "… So it was <b>you</> all along! All these years fighting and cleaning, dealing with those pests, and it was <b>YOU</> who let them in?"
+
+#. Key:	LEVEL_10_END_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_10"
+msgid "LEVEL_10_END_10"
+msgstr "You passed! With flying colors! Squeaky clean and lemon-scented! Congratulations! Huzzah!! Pop the champagne, bring out the band and the confetti!"
+
+#. Key:	LEVEL_10_END_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_11"
+msgid "LEVEL_10_END_11"
+msgstr "Hmph. I should’ve known. A practice run, of course! It never hurts to hone one’s craft."
+
+#. Key:	LEVEL_10_END_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_12"
+msgid "LEVEL_10_END_12"
+msgstr "Thank you, Lord Kaios, that will keep me sharp. From this day forward I will redouble my efforts!"
+
+#. Key:	LEVEL_10_END_13
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_13"
+msgid "LEVEL_10_END_13"
+msgstr "<wh>Oh no, please don’t…</>"
+
+#. Key:	LEVEL_10_END_14
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_14"
+msgid "LEVEL_10_END_14"
+msgstr "What was that?"
+
+#. Key:	LEVEL_10_END_15
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_15"
+msgid "LEVEL_10_END_15"
+msgstr "I said: <b>“Marvelous! Simply marvelous!”</> Truly, you are unmatched!"
+
+#. Key:	LEVEL_10_END_16
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_16"
+msgid "LEVEL_10_END_16"
+msgstr "So unmatched, in fact, that you deserve… a reward! How about… a <b>long</>, relaxing trip to some delightful tropical paradise? My treat!"
+
+#. Key:	LEVEL_10_END_17
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_17"
+msgid "LEVEL_10_END_17"
+msgstr "Think about it! Sandy beaches, palm trees, a straw hat on your head, sunglasses on your face, sipping piña colada while watching the sunset. Wadda' ya say? I’ll help you pack!"
+
+#. Key:	LEVEL_10_END_18
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_18"
+msgid "LEVEL_10_END_18"
+msgstr "I think I’ll pass on the trip, Lord. Filth takes no breaks, and I won’t either!"
+
+#. Key:	LEVEL_10_END_19
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_19"
+msgid "LEVEL_10_END_19"
+msgstr "But... I could always use a raise."
+
+#. Key:	LEVEL_10_END_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_2"
+msgid "LEVEL_10_END_2"
+msgstr "<b>You</> sent those creatures after me, filled the halls with filth, all just to… what? Get rid of me?!"
+
+#. Key:	LEVEL_10_END_20
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_20"
+msgid "LEVEL_10_END_20"
+msgstr "Ahaha!! Oh-ho-HO! A raise! Of course! Absolutely!"
+
+#. Key:	LEVEL_10_END_21
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_21"
+msgid "LEVEL_10_END_21"
+msgstr "A raise it is! <bgc>5%</> extra shall do it! Consider it… a token of my undying appreciation."
+
+#. Key:	LEVEL_10_END_22
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_22"
+msgid "LEVEL_10_END_22"
+msgstr "Make it <bcc>70%</> extra."
+
+#. Key:	LEVEL_10_END_23
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_23"
+msgid "LEVEL_10_END_23"
+msgstr "How about… <bgc>10%</>?"
+
+#. Key:	LEVEL_10_END_24
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_24"
+msgid "LEVEL_10_END_24"
+msgstr "How about <bcc>80%</>."
+
+#. Key:	LEVEL_10_END_25
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_25"
+msgid "LEVEL_10_END_25"
+msgstr "<b>HA!!</> Sure! Nothing says “loyal service rewarded” like an extra juicy paycheck!"
+
+#. Key:	LEVEL_10_END_26
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_26"
+msgid "LEVEL_10_END_26"
+msgstr "<wh> or watching my gold reserves vanish into your pockets… but what can I do at this point…</>"
+
+#. Key:	LEVEL_10_END_27
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_27"
+msgid "LEVEL_10_END_27"
+msgstr "Thank you, Lord. It has been an honor and a privilege doing <bcc>my job</>."
+
+#. Key:	LEVEL_10_END_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_3"
+msgid "LEVEL_10_END_3"
+msgstr "Oh-ho-HO, the <c>accusations</>! The betrayal in your voice! Before you do anything, let me explain!"
+
+#. Key:	LEVEL_10_END_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_4"
+msgid "LEVEL_10_END_4"
+msgstr "Dorothy, sweet mop-wielding colossus, you <c>really</> think this was betrayal? Betrayal? Me? To get rid of <b>you</>? Perish the thought! This, all of <c>this</> was…"
+
+#. Key:	LEVEL_10_END_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_5"
+msgid "LEVEL_10_END_5"
+msgstr "Drumroll please..."
+
+#. Key:	LEVEL_10_END_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_6"
+msgid "LEVEL_10_END_6"
+msgstr "<b>A test!</> Yes, a carefully crafted, top-secret, ultra-elite, certified <b>Maid Endurance Trial</>™!"
+
+#. Key:	LEVEL_10_END_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_7"
+msgid "LEVEL_10_END_7"
+msgstr "I had to know if you were still the best of the best, the cream of the crop, still sharp, still… uh… <b>clean-tastic</>."
+
+#. Key:	LEVEL_10_END_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_8"
+msgid "LEVEL_10_END_8"
+msgstr "It was all… A test of skill?"
+
+#. Key:	LEVEL_10_END_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_END_9"
+msgid "LEVEL_10_END_9"
+msgstr "Y-yep! Absolutely! A 100% genuine, <wh>definitely not made up just now</>, <b>LEGITIMATE</> test! And guess what?"
+
+#. Key:	LEVEL_10_PREV_1_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_PREV_1_1"
+msgid "LEVEL_10_PREV_1_1"
+msgstr "Well, time to get going. We have a lot of work ahead of us today."
+
+#. Key:	LEVEL_10_PREV_1_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_PREV_1_2"
+msgid "LEVEL_10_PREV_1_2"
+msgstr "Wait! Someone slid a note under the door while we slept..."
+
+#. Key:	LEVEL_10_PREV_1_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_PREV_1_3"
+msgid "LEVEL_10_PREV_1_3"
+msgstr "Hm…? You’re right. Let's have a look…"
+
+#. Key:	LEVEL_10_PREV_2_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_PREV_2_1"
+msgid "LEVEL_10_PREV_2_1"
+msgstr "Uh… this is a joke, isn’t it?"
+
+#. Key:	LEVEL_10_PREV_2_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_PREV_2_2"
+msgid "LEVEL_10_PREV_2_2"
+msgstr "Why do you say that?"
+
+#. Key:	LEVEL_10_PREV_2_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_PREV_2_3"
+msgid "LEVEL_10_PREV_2_3"
+msgstr "Look at that letter! It looks like it was written by someone without thumbs! It sounds like a trap to me!"
+
+#. Key:	LEVEL_10_PREV_2_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_PREV_2_4"
+msgid "LEVEL_10_PREV_2_4"
+msgstr "I recognize this calligraphy, this is Lord’s handwriting."
+
+#. Key:	LEVEL_10_PREV_2_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_PREV_2_5"
+msgid "LEVEL_10_PREV_2_5"
+msgstr "He has been very cheery lately, with his conquest complete and whatnot… maybe this is a sign of good will?"
+
+#. Key:	LEVEL_10_PREV_2_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_PREV_2_6"
+msgid "LEVEL_10_PREV_2_6"
+msgstr "Either way, I’ve been asking for a raise for a while now… I won’t turn away his generous gift over some baseless suspicions."
+
+#. Key:	LEVEL_10_START_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_START_1"
+msgid "LEVEL_10_START_1"
+msgstr "Ahh, Dorothy! My spotless star, my iron-clad maiden, my beefcake housekeeper, my radiant mop in the darkness."
+
+#. Key:	LEVEL_10_START_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_START_10"
+msgid "LEVEL_10_START_10"
+msgstr "For you have been betrayed… <b> by the Dark Lord</>!!!"
+
+#. Key:	LEVEL_10_START_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_START_2"
+msgid "LEVEL_10_START_2"
+msgstr "You actually <b>fell</> for the note, didn’t you? Ha! <b>Priceless</>!!!"
+
+#. Key:	LEVEL_10_START_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_START_3"
+msgid "LEVEL_10_START_3"
+msgstr "You see, this “raise” of yours? All but a devilish ruse by yours truly!!"
+
+#. Key:	LEVEL_10_START_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_START_4"
+msgid "LEVEL_10_START_4"
+msgstr "<st>WHAT?!</>"
+
+#. Key:	LEVEL_10_START_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_START_5"
+msgid "LEVEL_10_START_5"
+msgstr "Called it! Called it, called it, <b>CALLED IT!</> Did I not say this was a trap?!"
+
+#. Key:	LEVEL_10_START_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_START_6"
+msgid "LEVEL_10_START_6"
+msgstr "For decades, you’ve scrubbed, polished, scoured every inch of my halls while I was out taking over the world… and every time you made me look like a fool in <b>my own domain!</>"
+
+#. Key:	LEVEL_10_START_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_START_7"
+msgid "LEVEL_10_START_7"
+msgstr "Well not today. Today is the day you fall! Today, every ounce of <bgc>grime</>, <bgc>dust</>, <bgc>muck</>, and <bgc>filth</> in this mansion rises against you!"
+
+#. Key:	LEVEL_10_START_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_START_8"
+msgid "LEVEL_10_START_8"
+msgstr "This is your end Dorothy. No more slow drips, no more sneaky tricks. Today I bury you under a tidal wave of your greatest <b>nightmare!</>"
+
+#. Key:	LEVEL_10_START_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_10_START_9"
+msgid "LEVEL_10_START_9"
+msgstr "Now ready your pathetic cleaning tools and steel yourself!"
+
+#. Key:	LEVEL_1_END_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_1"
+msgid "LEVEL_1_END_1"
+msgstr "Tally-ho! I’m back!"
+
+#. Key:	LEVEL_1_END_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_10"
+msgid "LEVEL_1_END_10"
+msgstr "Ha ha ha…!"
+
+#. Key:	LEVEL_1_END_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_11"
+msgid "LEVEL_1_END_11"
+msgstr "…"
+
+#. Key:	LEVEL_1_END_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_12"
+msgid "LEVEL_1_END_12"
+msgstr "Oh, I jest, of course! Joking, joking! <wh>Please don’t kill me.</>"
+
+#. Key:	LEVEL_1_END_13
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_13"
+msgid "LEVEL_1_END_13"
+msgstr "I am <b>well</> aware of your capabilities, your strength… and your horrifying, unstoppable resolve…"
+
+#. Key:	LEVEL_1_END_14
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_14"
+msgid "LEVEL_1_END_14"
+msgstr "Thank you, Lord. Do you need anything else done today?"
+
+#. Key:	LEVEL_1_END_15
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_15"
+msgid "LEVEL_1_END_15"
+msgstr "No, no, no, no, no! You’ve done <b>quite</> enough. In fact, I’m fairly certain you’ve done <b>EVERYTHING</> that possibly could have been done today within these walls…"
+
+#. Key:	LEVEL_1_END_16
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_16"
+msgid "LEVEL_1_END_16"
+msgstr "You are dismissed! Run along now! I have… <b>important matters</> to attend to. Plans to scheme, troops to command, speeches to write!"
+
+#. Key:	LEVEL_1_END_17
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_17"
+msgid "LEVEL_1_END_17"
+msgstr "And evil laugh practice at 9:00, Lord."
+
+#. Key:	LEVEL_1_END_18
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_18"
+msgid "LEVEL_1_END_18"
+msgstr "Yes… that too. <c>Toodles!!</>"
+
+#. Key:	LEVEL_1_END_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_2"
+msgid "LEVEL_1_END_2"
+msgstr "Ohhh dear <c>me</>. This place… it somehow looks even <b>better</> than it did yesterday! How do you <b>do</> it?! Witchcraft? Soapcraft? Both?!"
+
+#. Key:	LEVEL_1_END_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_3"
+msgid "LEVEL_1_END_3"
+msgstr "Are you sure you aren’t magical, my dear Dorothy?"
+
+#. Key:	LEVEL_1_END_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_4"
+msgid "LEVEL_1_END_4"
+msgstr "No Lord, no magics, no parlor tricks. Just soap, elbow grease, and pure grit."
+
+#. Key:	LEVEL_1_END_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_5"
+msgid "LEVEL_1_END_5"
+msgstr "Oh right, you <b>did</> put that in your resume… Hmmmm…"
+
+#. Key:	LEVEL_1_END_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_6"
+msgid "LEVEL_1_END_6"
+msgstr "Well, as per usual you’ve done a positively <b>absolutupendous</> job today."
+
+#. Key:	LEVEL_1_END_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_7"
+msgid "LEVEL_1_END_7"
+msgstr "It's a pleasure to hear that. I barely broke a sweat, Lord."
+
+#. Key:	LEVEL_1_END_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_8"
+msgid "LEVEL_1_END_8"
+msgstr "Oh me, oh my. Getting cocky? Careful there my dear Dorothy. You know what they say about pride! You fly high and then…"
+
+#. Key:	LEVEL_1_END_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_1_END_9"
+msgid "LEVEL_1_END_9"
+msgstr "<bst>SPLAT!</>"
+
+#. Key:	LEVEL_2_END_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_1"
+msgid "LEVEL_2_END_1"
+msgstr "Tally-ho, I’m back! Another day of <b>glorious glory</> for my three favorite people in the world: me, myself, and I! And. Would. You. Just. Look at this place!"
+
+#. Key:	LEVEL_2_END_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_10"
+msgid "LEVEL_2_END_10"
+msgstr "What <c>is</> perfection, hmm? An endless battle against filth? Or a comfortable chair, a cold drink, and the acceptance of a few insignificant crumbs under the rug?"
+
+#. Key:	LEVEL_2_END_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_11"
+msgid "LEVEL_2_END_11"
+msgstr "Crumbs under the rug are the start of chaos, Lord. And chaos is not welcome in this house."
+
+#. Key:	LEVEL_2_END_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_12"
+msgid "LEVEL_2_END_12"
+msgstr "<wh>…of course she’d say that...</> Ha ha! Spoken like a true master of the broom! No quarter given, no mercy shown! You terrify me sometimes, Dorothy. In the most delightful way."
+
+#. Key:	LEVEL_2_END_13
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_13"
+msgid "LEVEL_2_END_13"
+msgstr "..."
+
+#. Key:	LEVEL_2_END_14
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_14"
+msgid "LEVEL_2_END_14"
+msgstr "Oh, don’t give me that stony stare. I'm kidding! It is all in good fun, isn't it? You’ve done marvelously once again. Run along now. Dismissed!"
+
+#. Key:	LEVEL_2_END_15
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_15"
+msgid "LEVEL_2_END_15"
+msgstr "<c>Toodles!!</>"
+
+#. Key:	LEVEL_2_END_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_2"
+msgid "LEVEL_2_END_2"
+msgstr "Absolutely remarkable; sparkling floors, polished walls. I can run my fingers on the furniture and feel nothing but smooth, sparkling perfection! Like diamonds. <wh>Truly uncanny…</>"
+
+#. Key:	LEVEL_2_END_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_3"
+msgid "LEVEL_2_END_3"
+msgstr "<b>AHEM!</>"
+
+#. Key:	LEVEL_2_END_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_4"
+msgid "LEVEL_2_END_4"
+msgstr "All very nice, very clean and all that… Yadda yadda. Truly, Dorothy, you are a <b>gift</> wrapped up in an apron. You even come with a delightful bow. Heh heh heh…"
+
+#. Key:	LEVEL_2_END_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_5"
+msgid "LEVEL_2_END_5"
+msgstr "I simply did what was expected, Lord. The mansion remains spotless."
+
+#. Key:	LEVEL_2_END_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_6"
+msgid "LEVEL_2_END_6"
+msgstr "Spotless indeed… though I must say… <c>sniff sniff</> …the air feels a touch… heavier than usual."
+
+#. Key:	LEVEL_2_END_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_7"
+msgid "LEVEL_2_END_7"
+msgstr "Not dirty, mind you! But different. Like walking into a room where someone has been moving furniture around. Maddeningly subtle!"
+
+#. Key:	LEVEL_2_END_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_8"
+msgid "LEVEL_2_END_8"
+msgstr "If there was any imperfection, I would have already corrected it."
+
+#. Key:	LEVEL_2_END_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_END_9"
+msgid "LEVEL_2_END_9"
+msgstr "Oh, I don’t doubt it! Still, one can’t help but wonder…"
+
+#. Key:	LEVEL_2_START_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_START_1"
+msgid "LEVEL_2_START_1"
+msgstr "Oh, hey Dorothy? I almost forgot to tell ya <bcc>something important</>. Took a quick stroll to one of our living rooms today and guess what I found on my way there..."
+
+#. Key:	LEVEL_2_START_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_START_2"
+msgid "LEVEL_2_START_2"
+msgstr "We got <bgc>Dust Bunnies</> roaming around! Almost forgot how <c>precious</> they looked with those long, fluffy ears, the fluffy cotton ball tails! Makes you wanna just scoop ’em up and-"
+
+#. Key:	LEVEL_2_START_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_START_3"
+msgid "LEVEL_2_START_3"
+msgstr "<b>Crush</> them for leaving dust everywhere? I was hoping they would've learned their lesson!"
+
+#. Key:	LEVEL_2_START_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_START_4"
+msgid "LEVEL_2_START_4"
+msgstr "Not what I was going for!! Anyways in case you forgot: <bgc>Dust Bunnies</> are skittish little critters. They’ll scurry off if you get too close and spit <bgc>cotton balls</> at you from afar."
+
+#. Key:	LEVEL_2_START_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_START_5"
+msgid "LEVEL_2_START_5"
+msgstr "Also, they don't care about <bcc>Washee & Flashee</>, they are too fluffy! While <bgc>Oozers</> don’t care about <bcc>Dusty</>, they are just too gooey!"
+
+#. Key:	LEVEL_2_START_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_START_6"
+msgid "LEVEL_2_START_6"
+msgstr "<bgc>Each enemy has a resistance to the weapon of the opposite filth type</>. They still receive damage, just <b>very</> little! Just as you use each weapon to clean different stains-"
+
+#. Key:	LEVEL_2_START_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_START_7"
+msgid "LEVEL_2_START_7"
+msgstr "I must use different weapons to defeat my enemies."
+
+#. Key:	LEVEL_2_START_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_2_START_8"
+msgid "LEVEL_2_START_8"
+msgstr "Atta maid! Hope you like juggling and multitasking. 'Cause you'll be doing a lot of that from now on!"
+
+#. Key:	LEVEL_3_END_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_1"
+msgid "LEVEL_3_END_1"
+msgstr "Tally-ho! I’m back! How’s my fav- <b>SNIFF SNIFF</>..."
+
+#. Key:	LEVEL_3_END_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_10"
+msgid "LEVEL_3_END_10"
+msgstr "..."
+
+#. Key:	LEVEL_3_END_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_11"
+msgid "LEVEL_3_END_11"
+msgstr "<b>AHEM</>… well anyways, moving on. Fantastic job. Truly remarkable as always. Clap clap clap and all that. You’re dismissed… <c>Toodles!!</>"
+
+#. Key:	LEVEL_3_END_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_12"
+msgid "LEVEL_3_END_12"
+msgstr "Is it just me, or wasn’t that just <c>suspicious</>? Awkward, but also very <b>VERY</> suspicious."
+
+#. Key:	LEVEL_3_END_13
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_13"
+msgid "LEVEL_3_END_13"
+msgstr "I don’t know what you mean."
+
+#. Key:	LEVEL_3_END_14
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_14"
+msgid "LEVEL_3_END_14"
+msgstr "He’s never cared about your choice of cleaning products before. <b>Suddenly</> he’s acting like the Tzar of fragrances? And on the <c>same</> day a <bgc>Grimelings</> pop up? That’s no coincidence!"
+
+#. Key:	LEVEL_3_END_15
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_15"
+msgid "LEVEL_3_END_15"
+msgstr "Lord Kaios is probably just tired. His campaign is almost complete, he’s out all day dealing with champions, handling logistics…"
+
+#. Key:	LEVEL_3_END_16
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_16"
+msgid "LEVEL_3_END_16"
+msgstr "Rehearsing evil speeches in his velvety, polka dot pajamas?"
+
+#. Key:	LEVEL_3_END_17
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_17"
+msgid "LEVEL_3_END_17"
+msgstr "Whatever the case, I’m sure its just all that stress and excitement wearing him out."
+
+#. Key:	LEVEL_3_END_18
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_18"
+msgid "LEVEL_3_END_18"
+msgstr "I’m not entirely convinced, but I’ll trust your judgement. Now how about we head back home and get some well-earned rest? I’m pooped…"
+
+#. Key:	LEVEL_3_END_19
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_19"
+msgid "LEVEL_3_END_19"
+msgstr "How can you <b>POSSIBLY</> be tired? You just stood by and watched while I did <b>all</> the work."
+
+#. Key:	LEVEL_3_END_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_2"
+msgid "LEVEL_3_END_2"
+msgstr "Hold on… is that… lavender? With a <c>dash</> of… what, hard-boiled eggs? Coleslaw salad? You bought some new detergent or something? Not sure I agree with the scent, too exotic for my taste."
+
+#. Key:	LEVEL_3_END_20
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_20"
+msgid "LEVEL_3_END_20"
+msgstr "<c>Just</> stood by?! I was cheering you on from afar! That is <b>just</> as exhausting as all the stuff you do!"
+
+#. Key:	LEVEL_3_END_21
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_21"
+msgid "LEVEL_3_END_21"
+msgstr "Let’s just go."
+
+#. Key:	LEVEL_3_END_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_3"
+msgid "LEVEL_3_END_3"
+msgstr "Hm, nothing to be concerned about. It was but a minor bump on the road. But I handled it."
+
+#. Key:	LEVEL_3_END_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_4"
+msgid "LEVEL_3_END_4"
+msgstr "A <c>minor</> bump? You’ve never been the “minor bump” type. You’re the type who leaves nothing behind but polished floors and dust-free cabinets. Unless, of course… you’re slowing down?"
+
+#. Key:	LEVEL_3_END_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_5"
+msgid "LEVEL_3_END_5"
+msgstr "...!!!!!"
+
+#. Key:	LEVEL_3_END_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_6"
+msgid "LEVEL_3_END_6"
+msgstr "<bst>KIDDING!</>"
+
+#. Key:	LEVEL_3_END_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_7"
+msgid "LEVEL_3_END_7"
+msgstr "HA! Got you! Absolutely priceless! Ohhh, you should’ve seen your face! <wh>Terrifyingly unamused...</>"
+
+#. Key:	LEVEL_3_END_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_8"
+msgid "LEVEL_3_END_8"
+msgstr "You know I jest, right? Just a touch of friendly banter, little jabs between friends. We <c>are</> friends, aren’t we? Or at least… good acquaintances?"
+
+#. Key:	LEVEL_3_END_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_END_9"
+msgid "LEVEL_3_END_9"
+msgstr "The kind that <b>don’t</>… say… <b>throttle</> each other with a mop handle?"
+
+#. Key:	LEVEL_3_START_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_START_1"
+msgid "LEVEL_3_START_1"
+msgstr "What the…? Smell that? No way, you know what that means? We got <bgc>new foes</> today! Can you guess which?"
+
+#. Key:	LEVEL_3_START_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_START_2"
+msgid "LEVEL_3_START_2"
+msgstr "That stench is unmistakable. Looks like the <bgc>Grimelings</> decided to show up today."
+
+#. Key:	LEVEL_3_START_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_START_3"
+msgid "LEVEL_3_START_3"
+msgstr "That’s odd, those imps don’t tend to show themselves. I know we don’t see these critters much, so <bcc>here’s a refresher</>:"
+
+#. Key:	LEVEL_3_START_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_START_4"
+msgid "LEVEL_3_START_4"
+msgstr "<bgc>Grimelings</> are all about stinking things up, literally! They’ll spray their revolting <bgc>gases</> on other <bgc>enemies</> and make ‘em much more aggressive!"
+
+#. Key:	LEVEL_3_START_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_START_5"
+msgid "LEVEL_3_START_5"
+msgstr "And if you get caught in the cloud, your <bcc>SPECIAL ATTACK</> meter will be drained! I suggest you stay clear of those nasty fumes!"
+
+#. Key:	LEVEL_3_START_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_START_6"
+msgid "LEVEL_3_START_6"
+msgstr "I’ll keep that in mind while I’m beating it into a paste."
+
+#. Key:	LEVEL_3_START_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_START_7"
+msgid "LEVEL_3_START_7"
+msgstr "Ha! That’s the Dorothy I love! Irrationally and comically <b>violent</>!"
+
+#. Key:	LEVEL_3_START_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_3_START_8"
+msgid "LEVEL_3_START_8"
+msgstr "Just… uh. Remember to mop that up after you’re done."
+
+#. Key:	LEVEL_4_END_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_END_1"
+msgid "LEVEL_4_END_1"
+msgstr "Tally-ho! I’m back witches!!"
+
+#. Key:	LEVEL_4_END_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_END_2"
+msgid "LEVEL_4_END_2"
+msgstr "Dorothy! My shining superstar of sanitation! Once again the halls sparkle like a diamond dipped in lemon-scented detergent. Truly performed to perfection! A round of applause!"
+
+#. Key:	LEVEL_4_END_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_END_3"
+msgid "LEVEL_4_END_3"
+msgstr "Thank you, Lord, just doing my job."
+
+#. Key:	LEVEL_4_END_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_END_4"
+msgid "LEVEL_4_END_4"
+msgstr "And doing it so well it brings a tear to my villainous eye. My humble <bcc>three million square feet</> mansion is cleaner all thanks to you!"
+
+#. Key:	LEVEL_4_END_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_END_5"
+msgid "LEVEL_4_END_5"
+msgstr "Carry on, oh water-spraying, duster-swaying, mop-spinning, vacuum-wielding marvel!"
+
+#. Key:	LEVEL_4_END_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_END_6"
+msgid "LEVEL_4_END_6"
+msgstr "Yes Lord Kaios. I aim to please."
+
+#. Key:	LEVEL_4_START_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_START_1"
+msgid "LEVEL_4_START_1"
+msgstr "As I was saying yesterday... cheerleading is also hard work!"
+
+#. Key:	LEVEL_4_START_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_START_2"
+msgid "LEVEL_4_START_2"
+msgstr "Then you wouldn’t mind switching places. Maybe I give you the weapons and I do the cheering?"
+
+#. Key:	LEVEL_4_START_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_START_3"
+msgid "LEVEL_4_START_3"
+msgstr "And come out into the open where everyone can see me? <c>Nooooo</> thank you. Let's just call it even and say we are <b>BOTH</> just as useful every day, deal?"
+
+#. Key:	LEVEL_4_START_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_START_4"
+msgid "LEVEL_4_START_4"
+msgstr "Heh… deal. Let's focus now. New day, new battle, no funny business."
+
+#. Key:	LEVEL_4_START_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_START_5"
+msgid "LEVEL_4_START_5"
+msgstr "Not quite! Saw some purple <bgc>ooze</> leaking under one of our doors today. <bgc>Splitter Oozers</> must be back! Remember how they work?"
+
+#. Key:	LEVEL_4_START_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_START_6"
+msgid "LEVEL_4_START_6"
+msgstr "Two little <bgc>oozelings</> clumped together to form a bigger, much meaner blob of sludge. A bit tougher, but if you hurt them enough they'll <bcc>split back up</>!"
+
+#. Key:	LEVEL_4_START_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_4_START_7"
+msgid "LEVEL_4_START_7"
+msgstr "How nice of them to clump together, saves me the trouble of hunting them down one by one!"
+
+#. Key:	LEVEL_5_END_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_5_END_1"
+msgid "LEVEL_5_END_1"
+msgstr "Tally-ho! The <b>king</> of mansion inspections has arrived! The verdict is in: We got a floor so pristine it could make a lesser being <brc>burst into flames</>!"
+
+#. Key:	LEVEL_5_END_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_5_END_2"
+msgid "LEVEL_5_END_2"
+msgstr "I only did what was necessary, Lord. Just another day of work."
+
+#. Key:	LEVEL_5_END_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_5_END_3"
+msgid "LEVEL_5_END_3"
+msgstr "<b> Just another day of work</>!? My dear Dorothy, empires rise and fall with less spectacle than this marvelous display of sanitation!"
+
+#. Key:	LEVEL_5_END_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_5_END_4"
+msgid "LEVEL_5_END_4"
+msgstr "You make it look so easy. I may start demanding extravagance every day!"
+
+#. Key:	LEVEL_5_END_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_5_END_5"
+msgid "LEVEL_5_END_5"
+msgstr "You already do Lord."
+
+#. Key:	LEVEL_5_END_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_5_END_6"
+msgid "LEVEL_5_END_6"
+msgstr "Do I really? Do I...? Of course, I do! <b>HA HA HA!</> And you deliver! A humble maid who outshines a thousand suns. A weaker despot might get jealous, but not me!"
+
+#. Key:	LEVEL_5_END_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_5_END_7"
+msgid "LEVEL_5_END_7"
+msgstr "I’ll keep it that way, Lord. Through mud and soot I shall prevail."
+
+#. Key:	LEVEL_5_END_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_5_END_8"
+msgid "LEVEL_5_END_8"
+msgstr "I knew you could handle it! Without a <b>shadow</> of a doubt! I'm off for today. Toodles!"
+
+#. Key:	LEVEL_5_START_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_5_START_1"
+msgid "LEVEL_5_START_1"
+msgstr "Let’s do this. Time to get my hands dirty!"
+
+#. Key:	LEVEL_5_START_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_5_START_2"
+msgid "LEVEL_5_START_2"
+msgstr "Get ready, set…"
+
+#. Key:	LEVEL_5_START_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_5_START_3"
+msgid "LEVEL_5_START_3"
+msgstr "<bst>GO!!</>"
+
+#. Key:	LEVEL_6_END_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_1"
+msgid "LEVEL_6_END_1"
+msgstr "Tally-ho! What a day of glory and triumph for me! I should have my <b>unpaid</> and very recently <b>conquered</> servants erect a mighty statue in my honor!"
+
+#. Key:	LEVEL_6_END_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_10"
+msgid "LEVEL_6_END_10"
+msgstr "Hmm? Did you say something Lord?"
+
+#. Key:	LEVEL_6_END_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_11"
+msgid "LEVEL_6_END_11"
+msgstr "Ha! Ha! Nothing, nothing at all! Your hearing isn’t what it used to be I reckon! Or maybe you’re just sleepy!"
+
+#. Key:	LEVEL_6_END_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_12"
+msgid "LEVEL_6_END_12"
+msgstr "Oh, golly yee! Would you look at the time? <b>YAWN</>. Its late, time to get some shut-eye myself!"
+
+#. Key:	LEVEL_6_END_13
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_13"
+msgid "LEVEL_6_END_13"
+msgstr "<wh>Did he just say 'yawn' out loud?</>"
+
+#. Key:	LEVEL_6_END_14
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_14"
+msgid "LEVEL_6_END_14"
+msgstr "Splendid job, as always. You’ve kept my halls clean, my lungs clear, and my boots shining."
+
+#. Key:	LEVEL_6_END_15
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_15"
+msgid "LEVEL_6_END_15"
+msgstr "You’ve earned some rest. You’re dismissed for the day. I'm off. Toodles!"
+
+#. Key:	LEVEL_6_END_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_2"
+msgid "LEVEL_6_END_2"
+msgstr "I see your day was also fruitful, with the mansion being spotless as always and all that jazz."
+
+#. Key:	LEVEL_6_END_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_3"
+msgid "LEVEL_6_END_3"
+msgstr "Just another day of honest hard work Lord."
+
+#. Key:	LEVEL_6_END_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_4"
+msgid "LEVEL_6_END_4"
+msgstr "Marvelous! Simply marvelous. Though I must say… this place smells faintly of chimney smoke. Very… rustic."
+
+#. Key:	LEVEL_6_END_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_5"
+msgid "LEVEL_6_END_5"
+msgstr "I almost feel as though I should slip into my favorite <b>baby seal fur robe</>, don my bunny slippers, and sip mulled wine by a hearth!"
+
+#. Key:	LEVEL_6_END_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_6"
+msgid "LEVEL_6_END_6"
+msgstr "Truly, what more could an awesome and handsome conquering overlord ask for?"
+
+#. Key:	LEVEL_6_END_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_7"
+msgid "LEVEL_6_END_7"
+msgstr "What would <b>you</> ask for, Dorothy? My dear housemaid, my most loyal housekeeper? Perhaps a <b>long</> break? Vacations to a far, faaaaaaaar away land? Both?"
+
+#. Key:	LEVEL_6_END_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_8"
+msgid "LEVEL_6_END_8"
+msgstr "Nothing comes to mind Lord. Maybe greater challenges to stay sharp."
+
+#. Key:	LEVEL_6_END_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_END_9"
+msgid "LEVEL_6_END_9"
+msgstr "<wh>If those fools could even manage THAT we wouldn’t be having this conversation…</>"
+
+#. Key:	LEVEL_6_START_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_START_1"
+msgid "LEVEL_6_START_1"
+msgstr "Alright, here go! New day means the start of a new <b>mess-acre!</>. Heh, you liked what I did there?"
+
+#. Key:	LEVEL_6_START_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_START_2"
+msgid "LEVEL_6_START_2"
+msgstr "<c>Mess-acre?</> Like a massacre but with mess? <b>MESS-ACRE</>?"
+
+#. Key:	LEVEL_6_START_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_START_3"
+msgid "LEVEL_6_START_3"
+msgstr "<wh>My humor is wasted here</>."
+
+#. Key:	LEVEL_6_START_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_START_4"
+msgid "LEVEL_6_START_4"
+msgstr "That was a little forced don’t you think?"
+
+#. Key:	LEVEL_6_START_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_START_5"
+msgid "LEVEL_6_START_5"
+msgstr "Hey you are the cleaning expert not a comedian! Anyways, is it me, or does it smell like a forest fire today? <bgc>You know what that means...</>"
+
+#. Key:	LEVEL_6_START_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_START_6"
+msgid "LEVEL_6_START_6"
+msgstr "We may be facing <bgc>Ash Bunnies</> today! Those little soot-balls are even more skittish than their fluffier, less crispy <bgc>cousins</>."
+
+#. Key:	LEVEL_6_START_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_START_7"
+msgid "LEVEL_6_START_7"
+msgstr "They'll hide in their <bgc>dust mounds</> to avoid you! While hidden you can't attack them, but they can attack you!! You must <bcc>clean</> the mound first before beating them to a pulp."
+
+#. Key:	LEVEL_6_START_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_6_START_8"
+msgid "LEVEL_6_START_8"
+msgstr "I don’t care what they do, they are just another pest to squash. They can hide, they can run, but they won't escape!"
+
+#. Key:	LEVEL_7_END_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_1"
+msgid "LEVEL_7_END_1"
+msgstr "Well, well, well… another day passes, and the mighty Dorothy still stands. Such a resilient little maid…"
+
+#. Key:	LEVEL_7_END_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_10"
+msgid "LEVEL_7_END_10"
+msgstr "Ugh… Look… Shiny floors mean Dorothy is winning. And Dorothy winning… well, we can’t have <c>that</>, now, can we?"
+
+#. Key:	LEVEL_7_END_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_11"
+msgid "LEVEL_7_END_11"
+msgstr "N-No Lord! Definitely not! Terrible thing! Forget we say anything! We’ll… We’ll ramp it up tomorrow! Extra stinky! More filth monsters!"
+
+#. Key:	LEVEL_7_END_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_12"
+msgid "LEVEL_7_END_12"
+msgstr "Maybe a magic cauldron that spits out many, many <bgc>Oozers</>, or chimney that releases <bgc>Dust Bunnies</>! Or maybe we make <bgc>BIG MONSTER</> that crushes all!"
+
+#. Key:	LEVEL_7_END_13
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_13"
+msgid "LEVEL_7_END_13"
+msgstr "Yes yes! Flood the mansion with <bgc>shi-</>"
+
+#. Key:	LEVEL_7_END_14
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_14"
+msgid "LEVEL_7_END_14"
+msgstr "<brc>NO NO NO NO NO NO!!!!</>"
+
+#. Key:	LEVEL_7_END_15
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_15"
+msgid "LEVEL_7_END_15"
+msgstr "No big monsters and no crazy spells!! I still want a place to <b>LIVE</> after this is all over!"
+
+#. Key:	LEVEL_7_END_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_2"
+msgid "LEVEL_7_END_2"
+msgstr "You think yourself so powerful, oh sooooo strong with your mop, and your big, beefy arms…"
+
+#. Key:	LEVEL_7_END_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_3"
+msgid "LEVEL_7_END_3"
+msgstr "Tell me, my little grimy confidants… are you <c>sure</> you’re doing what I asked of you?"
+
+#. Key:	LEVEL_7_END_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_4"
+msgid "LEVEL_7_END_4"
+msgstr "Eh-heh, o-of course, boss! We spread the gunk, sprinkle the dust, puff the stink! Messy messy, dirty dirty! Just like you asked!!"
+
+#. Key:	LEVEL_7_END_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_5"
+msgid "LEVEL_7_END_5"
+msgstr "And yet… the halls are cleaner than ever. Sparkling, even. I could almost see my reflection in the curtains..."
+
+#. Key:	LEVEL_7_END_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_6"
+msgid "LEVEL_7_END_6"
+msgstr "<c>My reflection</>... <b>IN THE CURTAINS!!!!!!!</>"
+
+#. Key:	LEVEL_7_END_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_7"
+msgid "LEVEL_7_END_7"
+msgstr "Some days I can’t even tell if you were here or not…"
+
+#. Key:	LEVEL_7_END_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_8"
+msgid "LEVEL_7_END_8"
+msgstr "B-But boss, don’t you like it…  <gcc>bleh</> … clean? You want clean, clean is good for you, right boss?"
+
+#. Key:	LEVEL_7_END_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_END_9"
+msgid "LEVEL_7_END_9"
+msgstr "<brc>NO!</> Not good! Not good at all! How many times do I have t-"
+
+#. Key:	LEVEL_7_START_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_START_1"
+msgid "LEVEL_7_START_1"
+msgstr "Another day, another mess. Let’s make this quick."
+
+#. Key:	LEVEL_7_START_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_START_2"
+msgid "LEVEL_7_START_2"
+msgstr "Quick? Oh, don’t say that!"
+
+#. Key:	LEVEL_7_START_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_START_3"
+msgid "LEVEL_7_START_3"
+msgstr "Every time someone says “quick,” the universe hears it and tosses in <c>extra filth</> just to spite us."
+
+#. Key:	LEVEL_7_START_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_START_4"
+msgid "LEVEL_7_START_4"
+msgstr "A little challenge never hurt anyone. So I’ll say it again: quick."
+
+#. Key:	LEVEL_7_START_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_7_START_5"
+msgid "LEVEL_7_START_5"
+msgstr "… Oh, no. You’ve doomed us all!!!"
+
+#. Key:	LEVEL_8_END_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_1"
+msgid "LEVEL_8_END_1"
+msgstr "Alright, alright, I’ve just about <c>had it</>!"
+
+#. Key:	LEVEL_8_END_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_10"
+msgid "LEVEL_8_END_10"
+msgstr "And the apron, boss, <b>THE APRON</>!! It’s spotless! <c>Spotless</>! That’s unnatural, boss! She’s a cleaning demon!"
+
+#. Key:	LEVEL_8_END_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_11"
+msgid "LEVEL_8_END_11"
+msgstr "You sad, pathetic, insignificant, unclean joke of a flatulent menagerie!"
+
+#. Key:	LEVEL_8_END_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_12"
+msgid "LEVEL_8_END_12"
+msgstr "I <c>know</> she’s terrifying! You think I haven’t noticed? She could wrap her hands around my neck and wring me out like a sponge if she wanted!"
+
+#. Key:	LEVEL_8_END_13
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_13"
+msgid "LEVEL_8_END_13"
+msgstr "This was supposed to be simple! So simple it was masterful!! You mess the place, I come back and go <c>“Ho ho ho! this place sucks!”</>"
+
+#. Key:	LEVEL_8_END_14
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_14"
+msgid "LEVEL_8_END_14"
+msgstr "She gets frustrated, maybe quits, maybe retires to a distant, far off land forever!"
+
+#. Key:	LEVEL_8_END_15
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_15"
+msgid "LEVEL_8_END_15"
+msgstr "And finally I get peace! Quiet! My halls, my throne, MY RULE! <c>Without</> her shadow looming over me!"
+
+#. Key:	LEVEL_8_END_16
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_16"
+msgid "LEVEL_8_END_16"
+msgstr "Uh… peace and quiet… with us?"
+
+#. Key:	LEVEL_8_END_17
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_17"
+msgid "LEVEL_8_END_17"
+msgstr "With y-"
+
+#. Key:	LEVEL_8_END_18
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_18"
+msgid "LEVEL_8_END_18"
+msgstr "<srb>NO!</>"
+
+#. Key:	LEVEL_8_END_19
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_19"
+msgid "LEVEL_8_END_19"
+msgstr "Not with <c>you</>! Just <c>me, myself and I</>!! Alone! Master of my domain, lord of the world, king of <b>ALL</>!! Without her spotless mug mocking my very existence!!!"
+
+#. Key:	LEVEL_8_END_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_2"
+msgid "LEVEL_8_END_2"
+msgstr "It's been a week since I told you lot to double your efforts! <b>SEVEN. WHOLE. DAYS.!!!</> Not to mention the <b>WAAAAAAY</> over sixty years I’ve had you clowns on a payroll!"
+
+#. Key:	LEVEL_8_END_20
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_20"
+msgid "LEVEL_8_END_20"
+msgstr "Listen up, and listen good my grimy little disappointments: <c>Dorothy cannot keep winning.</>"
+
+#. Key:	LEVEL_8_END_21
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_21"
+msgid "LEVEL_8_END_21"
+msgstr "If she does, then… then what am I, huh? Lord Kaios, Conqueror of All Realms…? or Lord Kaios, <b>janitor’s landlord?!</>"
+
+#. Key:	LEVEL_8_END_22
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_22"
+msgid "LEVEL_8_END_22"
+msgstr "No no no boss! You are boss! You are always still boss! We’ll fix it, Lord Kaios, We swear!! More grime, more crime! Extra stink! Double the dust! Triple the muck!"
+
+#. Key:	LEVEL_8_END_23
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_23"
+msgid "LEVEL_8_END_23"
+msgstr "You’d better. Because if you fail me again… I swear on my momma Kaios…"
+
+#. Key:	LEVEL_8_END_24
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_24"
+msgid "LEVEL_8_END_24"
+msgstr "That I’ll shove you lot in a laundry basket, wrap you in blankets and drop you in with the whites. <b>Hot</> cycle. <b>NO</> fabric softener!"
+
+#. Key:	LEVEL_8_END_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_3"
+msgid "LEVEL_8_END_3"
+msgstr "And what do I see day after day, after day, after stinking day?! Dorothy, <b>my</> Dorothy, <bcc> THAT DOROTHY</>, waltzing through the halls like she owns the place! Strutting by like some…"
+
+#. Key:	LEVEL_8_END_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_4"
+msgid "LEVEL_8_END_4"
+msgstr "Some… some kind of… bleach-soaked beefcake of a juggernaut!"
+
+#. Key:	LEVEL_8_END_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_5"
+msgid "LEVEL_8_END_5"
+msgstr "Eh-heh… w-we tried, boss! The ooze, the dust, the-"
+
+#. Key:	LEVEL_8_END_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_6"
+msgid "LEVEL_8_END_6"
+msgstr "Tried?! No no no no no. There is no <c>try</>!!! You either <b>do</>, or screw up spectacularly!"
+
+#. Key:	LEVEL_8_END_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_7"
+msgid "LEVEL_8_END_7"
+msgstr "<brc>AND YOU’RE SCREWING UP SPECTACULARLY!!!</>"
+
+#. Key:	LEVEL_8_END_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_8"
+msgid "LEVEL_8_END_8"
+msgstr "I want you to <b>DELIVER</>!!!!!!"
+
+#. Key:	LEVEL_8_END_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_END_9"
+msgid "LEVEL_8_END_9"
+msgstr "But she’s scary! Her eyes, all fiery and stabby like a dragon’s, her mop is like a hammer! The detergent blinds us! The vacuum deafens us!!"
+
+#. Key:	LEVEL_8_START_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_START_1"
+msgid "LEVEL_8_START_1"
+msgstr "Ah, rise and shine, Dorothy! Another glorious morning! The dust sparkles, the muck glistens, the smell… eugh…"
+
+#. Key:	LEVEL_8_START_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_START_2"
+msgid "LEVEL_8_START_2"
+msgstr "The smell is… we can work on the smell."
+
+#. Key:	LEVEL_8_START_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_START_3"
+msgid "LEVEL_8_START_3"
+msgstr "If by “glorious” you mean “it’ll be easy peasy” then yes. Absolutely radiant."
+
+#. Key:	LEVEL_8_START_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_START_4"
+msgid "LEVEL_8_START_4"
+msgstr "That’s the spirit! Keep that cheery attitude, and we’ll be done in a flash! Maybe you clean soo good today our enemies pack their things and leave for good!"
+
+#. Key:	LEVEL_8_START_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_START_5"
+msgid "LEVEL_8_START_5"
+msgstr "If only. Would save me a lot of mopping."
+
+#. Key:	LEVEL_8_START_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_START_6"
+msgid "LEVEL_8_START_6"
+msgstr "True, true. But then <c>I’d</> be bored out of my mind… and as I always say: a bored Gorch is a sad Gorch."
+
+#. Key:	LEVEL_8_START_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_START_7"
+msgid "LEVEL_8_START_7"
+msgstr "So why don’t we keep this nice and entertaining?"
+
+#. Key:	LEVEL_8_START_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_8_START_8"
+msgid "LEVEL_8_START_8"
+msgstr "With how much you enjoy violence? I can deliver, with a pink bow on top."
+
+#. Key:	LEVEL_9_END_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_1"
+msgid "LEVEL_9_END_1"
+msgstr "Tally-ho! I’m back!"
+
+#. Key:	LEVEL_9_END_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_10"
+msgid "LEVEL_9_END_10"
+msgstr "And you still can’t make a dent in her flawless, unstoppable cleaning regime after all these years?!"
+
+#. Key:	LEVEL_9_END_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_11"
+msgid "LEVEL_9_END_11"
+msgstr "We’re trying, boss! But she’s… she’s unstoppable!"
+
+#. Key:	LEVEL_9_END_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_12"
+msgid "LEVEL_9_END_12"
+msgstr "Unstoppable?! Oh, of course! Unstoppable! Why didn’t I think of that? Must’ve slipped my mind! How smart of you, real smooth Gregory! <c>Bravo</>!"
+
+#. Key:	LEVEL_9_END_13
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_13"
+msgid "LEVEL_9_END_13"
+msgstr "There must be a weakness! Some flaw! Some teeny, tiny crack you fetid imps can smear mud into!!!"
+
+#. Key:	LEVEL_9_END_14
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_14"
+msgid "LEVEL_9_END_14"
+msgstr "Any suggestions? Anyone? Yes, you! In the back!"
+
+#. Key:	LEVEL_9_END_15
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_15"
+msgid "LEVEL_9_END_15"
+msgstr "Maybe… you can help us Lord?"
+
+#. Key:	LEVEL_9_END_16
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_16"
+msgid "LEVEL_9_END_16"
+msgstr "…"
+
+#. Key:	LEVEL_9_END_17
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_17"
+msgid "LEVEL_9_END_17"
+msgstr "<syb>ZAAAAAAAAAP!!</>"
+
+#. Key:	LEVEL_9_END_18
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_18"
+msgid "LEVEL_9_END_18"
+msgstr "Anyone else got any other bright ideas?!"
+
+#. Key:	LEVEL_9_END_19
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_19"
+msgid "LEVEL_9_END_19"
+msgstr "W-we’ll give it everything we’ve got, boss! For real this time! Attack more rooms, unleash all the monsters! She can’t be everywhere at once, she will fail!"
+
+#. Key:	LEVEL_9_END_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_2"
+msgid "LEVEL_9_END_2"
+msgstr "Ah, Dorothy! Marvelous work today, as always. Spotless floors, gleaming surfaces… not a single streak out of place. Truly… exemplary."
+
+#. Key:	LEVEL_9_END_20
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_20"
+msgid "LEVEL_9_END_20"
+msgstr "Don’t hold back. I want filth! Confusion! Sabotage! Every dirty, little trick you’ve been saving under those pitiful masks!"
+
+#. Key:	LEVEL_9_END_21
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_21"
+msgid "LEVEL_9_END_21"
+msgstr "And if you fail… oh, my dear little imps, each one of you will get <brc>ten thousand years</> in the dungeons… and that’s <c>just</> for starters!"
+
+#. Key:	LEVEL_9_END_22
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_22"
+msgid "LEVEL_9_END_22"
+msgstr "<b>YES SIR LORD KAIOS!!! WE WON’T DISAPPOINT YOU, SIR!!</>"
+
+#. Key:	LEVEL_9_END_23
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_23"
+msgid "LEVEL_9_END_23"
+msgstr "This is it, the final stretch… Let’s see if that pathetic, puny maid can survive the <b>full, unrelenting might</> of my grimy little army! She will be defeated, she will vanish…"
+
+#. Key:	LEVEL_9_END_24
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_24"
+msgid "LEVEL_9_END_24"
+msgstr "<b>AND EVERY CORNER OF THE WORLD WILL BE ALL MINE!!</>"
+
+#. Key:	LEVEL_9_END_25
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_25"
+msgid "LEVEL_9_END_25"
+msgstr "<st>AHAHAHAHAHAHAHAHAHAHA!!!!!!!</>"
+
+#. Key:	LEVEL_9_END_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_3"
+msgid "LEVEL_9_END_3"
+msgstr "Thank you, Lord. Just doing my job."
+
+#. Key:	LEVEL_9_END_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_4"
+msgid "LEVEL_9_END_4"
+msgstr "Indeed, and what a job it is! I feel like a broken record congratulating you this much, but if I say nothing, I get an <c>itch!</> I rely on you to keep this mansion impeccable. Your diligence… it’s inspiring, really."
+
+#. Key:	LEVEL_9_END_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_5"
+msgid "LEVEL_9_END_5"
+msgstr "I appreciate that, Lord. I’ll be ready for tomorrow as well."
+
+#. Key:	LEVEL_9_END_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_6"
+msgid "LEVEL_9_END_6"
+msgstr "Excellent. Go rest now, Dorothy. Tomorrow will be another glorious day, showered by your unparalleled excellence! Everything is fine."
+
+#. Key:	LEVEL_9_END_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_7"
+msgid "LEVEL_9_END_7"
+msgstr "………..………..………..………..……….."
+
+#. Key:	LEVEL_9_END_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_8"
+msgid "LEVEL_9_END_8"
+msgstr "Everything is <b>not</> fine! Now… you lot. Look at me! Really look! I haven’t slept in days. I have bags under my eyes… and those bags have <b>BAGS</>!"
+
+#. Key:	LEVEL_9_END_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_END_9"
+msgid "LEVEL_9_END_9"
+msgstr "I’ve had it with your excuses. Pathetic, bumbling, rotten little <brc>failures</>! I’ve given you more time than I’ve given any minions… more opportunities than I can count…"
+
+#. Key:	LEVEL_9_START_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_1"
+msgid "LEVEL_9_START_1"
+msgstr "Morning, Dorothy! Another day, another… well… you know."
+
+#. Key:	LEVEL_9_START_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_10"
+msgid "LEVEL_9_START_10"
+msgstr "Right… of course. Just… keep your mop ready, Dorothy. I can’t shake the feeling something strange is going on…"
+
+#. Key:	LEVEL_9_START_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_11"
+msgid "LEVEL_9_START_11"
+msgstr "Relax, everything will be fine as always, you’ll see."
+
+#. Key:	LEVEL_9_START_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_12"
+msgid "LEVEL_9_START_12"
+msgstr "Now, let’s get to work."
+
+#. Key:	LEVEL_9_START_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_2"
+msgid "LEVEL_9_START_2"
+msgstr "Another day, indeed. Are you alright? You look like you just smelled something foul."
+
+#. Key:	LEVEL_9_START_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_3"
+msgid "LEVEL_9_START_3"
+msgstr "Uh… maybe I did. Or maybe it’s just that things feel… off, today."
+
+#. Key:	LEVEL_9_START_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_4"
+msgid "LEVEL_9_START_4"
+msgstr "Is it just me, or this past week has been rather hectic? More than usual I mean… After years of repetition, we all of a sudden have new enemies about…"
+
+#. Key:	LEVEL_9_START_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_5"
+msgid "LEVEL_9_START_5"
+msgstr "Hmm. I highly doubt it. New enemies?  Yes. Harder challenges? A little. Truly invigorating."
+
+#. Key:	LEVEL_9_START_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_6"
+msgid "LEVEL_9_START_6"
+msgstr "But I haven’t felt close to defeat, not even once! It’s probably just your imagination."
+
+#. Key:	LEVEL_9_START_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_7"
+msgid "LEVEL_9_START_7"
+msgstr "No, no, really. Even Lord Kaios hasn’t been poking around like usual. Haven’t seen him at all today!"
+
+#. Key:	LEVEL_9_START_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_8"
+msgid "LEVEL_9_START_8"
+msgstr "Didn’t take the lunch you packed for him, and his coffee mug was cold this morning!"
+
+#. Key:	LEVEL_9_START_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,LEVEL_9_START_9"
+msgid "LEVEL_9_START_9"
+msgstr "He’s probably busy. Conquering plans, world domination… the usual. I wouldn’t worry."
+
+#. Key:	TOUR_HUB_01_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_01_1"
+msgid "TOUR_HUB_01_1"
+msgstr "Wakey Wakey! We got a long day of killing and cleaning ahead of us! Hope you're ready for action!"
+
+#. Key:	TOUR_HUB_01_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_01_2"
+msgid "TOUR_HUB_01_2"
+msgstr "Yes, got a good night’s rest and I’m ready to get my hands dirty."
+
+#. Key:	TOUR_HUB_01_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_01_3"
+msgid "TOUR_HUB_01_3"
+msgstr "We got some time to spare before our day starts, so you can relax here in <bcc>your bedroom</> for as long as you want. Want some coffee? Croissants?"
+
+#. Key:	TOUR_HUB_02_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_02_1"
+msgid "TOUR_HUB_02_1"
+msgstr "Planning on giving the <bcc>dummy</> a good scrub or a good beating?"
+
+#. Key:	TOUR_HUB_02_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_02_2"
+msgid "TOUR_HUB_02_2"
+msgstr "Both actually. Multitasking is a very useful skill. Years of experience are good and all, but I cannot allow myself to grow rusty."
+
+#. Key:	TOUR_HUB_02_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_02_3"
+msgid "TOUR_HUB_02_3"
+msgstr "We wouldn't want that! Still, multitasking is good for another reason: <bcc>SPECIAL ATTACKS</>!"
+
+#. Key:	TOUR_HUB_02_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_02_4"
+msgid "TOUR_HUB_02_4"
+msgstr "<bcc>SPECIAL ATTACKS</> are powerful abilities that will clean and damage enemies. You can fill your <bcc>SPECIAL BAR</> by cleaning and fighting. Once it is full it'll light up in righteous flames!"
+
+#. Key:	TOUR_HUB_02_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_02_5"
+msgid "TOUR_HUB_02_5"
+msgstr "Then by pressing the <b>LB</> on your controller or <b>Middle Mouse Button</> you unleash their full power. This will empty the bar, so use them wisely!!"
+
+#. Key:	TOUR_HUB_02_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_02_6"
+msgid "TOUR_HUB_02_6"
+msgstr "Use the <b>LB</> on your controller or <b>Middle Mouse</> to unleash your special attack. This will empty the bar, so use them wisely!"
+
+#. Key:	TOUR_HUB_03_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_03_1"
+msgid "TOUR_HUB_03_1"
+msgstr "So, today we go back into our usual flow, the race against time and all that. Hope the extra mileage doesn’t strain your knees!"
+
+#. Key:	TOUR_HUB_03_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_03_2"
+msgid "TOUR_HUB_03_2"
+msgstr "Don’t be rude. There's no hurdle I can't surpass, no challenge I can't overcome."
+
+#. Key:	TOUR_HUB_03_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_03_3"
+msgid "TOUR_HUB_03_3"
+msgstr "True that. Either way we're on a very tight schedule! You must defeat every <bgc>enemy</> and <bcc>clean </> every room before the clock runs out."
+
+#. Key:	TOUR_HUB_03_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_03_4"
+msgid "TOUR_HUB_03_4"
+msgstr "Otherwise, the mansion will be a mess when Lord Kaios returns, and if that happens <brc>you can kiss your job goodbye</>! Lucky we got one handy perk up our sleeve: <b>every time you clean a room you'll get a nice pocketful of extra time</>!"
+
+#. Key:	TOUR_HUB_03_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_03_5"
+msgid "TOUR_HUB_03_5"
+msgstr "Still, none of this is an excuse to slack on the field! As I always say: <b>When pride leads the way, you waste half the day!</>"
+
+#. Key:	TOUR_HUB_03_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_03_6"
+msgid "TOUR_HUB_03_6"
+msgstr "That won’t happen, I’ve been doing this for years. Haven’t failed yet, and I won’t fail now!"
+
+#. Key:	TOUR_HUB_04_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_04_1"
+msgid "TOUR_HUB_04_1"
+msgstr "This <bcc>door</> goes back to the mansion. I won’t leave <bcc>unless I am ready to start my shift</>. Lord Kaios doesn’t pay me more for doing extra time…"
+
+#. Key:	TOUR_HUB_04_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_04_2"
+msgid "TOUR_HUB_04_2"
+msgstr "You are talking out loud. To a door… You’re talking to a <b>door</>. You know it can’t respond, right?"
+
+#. Key:	TOUR_HUB_04_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TOUR_HUB_04_3"
+msgid "TOUR_HUB_04_3"
+msgstr "Be quiet."
+
+#. Key:	TUT_0_R1_MOVAIM_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R1_MOVAIM_2"
+msgid "TUT_0_R1_MOVAIM_2"
+msgstr "It smells like mold... mold and grime… With a faint hint of <b>fear</>."
+
+#. Key:	TUT_0_R1_MOVAIM_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R1_MOVAIM_3"
+msgid "TUT_0_R1_MOVAIM_3"
+msgstr "Don’t you get paid to clean all that up anyways? So my point stands! Speaking of standing, which you’re currently doing a terrific job at, might I add..."
+
+#. Key:	TUT_0_R1_MOVAIM_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R1_MOVAIM_4"
+msgid "TUT_0_R1_MOVAIM_4"
+msgstr "Like an angry coat rack, or a grumpy lamp… Any sight of our unwanted little <bgc>guests</>?"
+
+#. Key:	TUT_0_R1_MOVAIM_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R1_MOVAIM_5"
+msgid "TUT_0_R1_MOVAIM_5"
+msgstr "No… They are gone. Just like my patience."
+
+#. Key:	TUT_0_R1_MOVAIM_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R1_MOVAIM_6"
+msgid "TUT_0_R1_MOVAIM_6"
+msgstr "Tell me <bcc>Gorch</>, are you sure you actually saw them come this way, or did they sneak off to the cellar?"
+
+#. Key:	TUT_0_R1_MOVAIM_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R1_MOVAIM_7"
+msgid "TUT_0_R1_MOVAIM_7"
+msgstr "Oh. <b>Absolutely and positively</>!!  Almost entirely! <c>Fifty — fifty</>… <wh>give or take fifty</>."
+
+#. Key:	TUT_0_R1_MOVAIM_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R1_MOVAIM_8"
+msgid "TUT_0_R1_MOVAIM_8"
+msgstr "Still, lets keep looking <c>juuuuuuuust</> in case!"
+
+#. Key:	TUT_0_R2_CLEAN_1_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_CLEAN_1_1"
+msgid "TUT_0_R2_CLEAN_1_1"
+msgstr "Aha! There’s our first clue: Puddles of <bgc>ooze</>! You got <bcc>Washee & Flashee</> with you, right?"
+
+#. Key:	TUT_0_R2_CLEAN_1_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_CLEAN_1_2"
+msgid "TUT_0_R2_CLEAN_1_2"
+msgstr "Hm? Yes I do, wh-"
+
+#. Key:	TUT_0_R2_CLEAN_1_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_CLEAN_1_3"
+msgid "TUT_0_R2_CLEAN_1_3"
+msgstr "Hm? Yes I do, wh-"
+
+#. Key:	TUT_0_R2_CLEAN_2_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_CLEAN_2_1"
+msgid "TUT_0_R2_CLEAN_2_1"
+msgstr "Oh, you got 'em, good! Now… Aim at the <bgc>ooze</> and press <b>LT</> on your controller or <b>Right Mouse Button</> to clean it up!"
+
+#. Key:	TUT_0_R2_CLEAN_2_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_CLEAN_2_2"
+msgid "TUT_0_R2_CLEAN_2_2"
+msgstr "What? Buttons?… Who are you talking to?"
+
+#. Key:	TUT_0_R2_CLEAN_2_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_CLEAN_2_3"
+msgid "TUT_0_R2_CLEAN_2_3"
+msgstr "Just speaking out loud! Anyway lets get to it. We better clean that up before we keep going... or not, I'm a tutorial, not a cop."
+
+#. Key:	TUT_0_R2_MINIMAP_1_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_MINIMAP_1_1"
+msgid "TUT_0_R2_MINIMAP_1_1"
+msgstr "They didn’t stand a chance! Didn't doubt it at all, not even for a moment! But look at you, you are <bgc>FILTHY</>! You can’t go on cleaning like that!"
+
+#. Key:	TUT_0_R2_MINIMAP_1_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_MINIMAP_1_2"
+msgid "TUT_0_R2_MINIMAP_1_2"
+msgstr "Let's find a <bcc>Clean-o-Matic</> and get you a sparkling new suit shall we?"
+
+#. Key:	TUT_0_R2_MINIMAP_1_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_MINIMAP_1_3"
+msgid "TUT_0_R2_MINIMAP_1_3"
+msgstr "Alright, where’s the nearest one?"
+
+#. Key:	TUT_0_R2_MINIMAP_1_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_MINIMAP_1_4"
+msgid "TUT_0_R2_MINIMAP_1_4"
+msgstr "Good segway for our next useful little tool: Your <bcc>minimap</>! The minimap is useful to know where you are, as well as the <bcc>condition of the rooms you visit</>, so listen closely:"
+
+#. Key:	TUT_0_R2_MINIMAP_1_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_MINIMAP_1_5"
+msgid "TUT_0_R2_MINIMAP_1_5"
+msgstr "If the room has <bgc>GREEN SPOTS</> then there are <bgc>enemies</> and <bgc>filth</> still lurking in it. Meaning you have to clean it up."
+
+#. Key:	TUT_0_R2_MINIMAP_2_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_MINIMAP_2_1"
+msgid "TUT_0_R2_MINIMAP_2_1"
+msgstr "The <bcc>Minimap</> is useful to know where you are, as well as the condition of the rooms you visit, so listen closely:"
+
+#. Key:	TUT_0_R2_MINIMAP_2_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_MINIMAP_2_2"
+msgid "TUT_0_R2_MINIMAP_2_2"
+msgstr "If the room has <bgc>GREEN SPOTS</> it means there are <bgc>enemies</> and <bgc>filth</> still lurking in it. Meaning you have to clean it up!"
+
+#. Key:	TUT_0_R2_MINIMAP_2_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_MINIMAP_2_3"
+msgid "TUT_0_R2_MINIMAP_2_3"
+msgstr "Once you <bcc>clean the room and deal with all the enemies</> inside, the room will turn <bcc>BLUE</>. That’s how you know your work in them is done!"
+
+#. Key:	TUT_0_R2_MINIMAP_2_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_MINIMAP_2_4"
+msgid "TUT_0_R2_MINIMAP_2_4"
+msgstr "Rooms with <bcc>Clean-o-Matics</> are marked with <bcc>BUBBLES</> on the mini map. Keep an eye on those!"
+
+#. Key:	TUT_0_R2_MINIMAP_2_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_MINIMAP_2_5"
+msgid "TUT_0_R2_MINIMAP_2_5"
+msgstr "Wait, minimap? what are you talking abou-"
+
+#. Key:	TUT_0_R2_MINIMAP_2_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R2_MINIMAP_2_6"
+msgid "TUT_0_R2_MINIMAP_2_6"
+msgstr "No time to explain, look at your minimap to find the nearest <bcc>Clean-o-Matic</>! Lets gooooooooooooo!!!"
+
+#. Key:	TUT_0_R3_COMBAT_1_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_COMBAT_1_1"
+msgid "TUT_0_R3_COMBAT_1_1"
+msgstr "There they are! <bgc>Oozers</>! This room is a mess, and as long as there is <bgc>filth and enemies</> it won’t be in acceptable conditions! We must deal with <b>both</> before moving on."
+
+#. Key:	TUT_0_R3_COMBAT_1_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_COMBAT_1_2"
+msgid "TUT_0_R3_COMBAT_1_2"
+msgstr "Aim at the <bgc>Oozers</> and press  <b>RT</> on your controller or <b>Left Mouse Button</> to <bcc>attack with Washee and Flashee</>."
+
+#. Key:	TUT_0_R3_COMBAT_1_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_COMBAT_1_3"
+msgid "TUT_0_R3_COMBAT_1_3"
+msgstr "Our enemies are <b>too weak to actually hurt you</>, their attacks get you <bgc>FILTHY</> instead! Keep an eye on your <bcc>HP</>. Your Hygiene Points."
+
+#. Key:	TUT_0_R3_COMBAT_1_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_COMBAT_1_4"
+msgid "TUT_0_R3_COMBAT_1_4"
+msgstr "While you are <bgc>FILTHY</> you won’t be able to clean. Plus if the room you are in is <bgc>not fully cleaned</> you’ll leave a trail of filth everywhere you go. Wouldn’t wanna help our unwanted invaders, right?"
+
+#. Key:	TUT_0_R3_COMBAT_1_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_COMBAT_1_5"
+msgid "TUT_0_R3_COMBAT_1_5"
+msgstr "Stop talking like that, I know what I am doing!"
+
+#. Key:	TUT_0_R3_COMBAT_1_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_COMBAT_1_6"
+msgid "TUT_0_R3_COMBAT_1_6"
+msgstr "Our enemies are <b>far too weak to actually hurt you</>. So their attacks just get you <bgc>FILTHY</> instead. Keep an eye on your <bcc>HP</>, your Hygiene Points."
+
+#. Key:	TUT_0_R3_COMBAT_1_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_COMBAT_1_7"
+msgid "TUT_0_R3_COMBAT_1_7"
+msgstr "While you are <bgc>FILTHY</> you won’t be able to clean! Plus if the room you are in is <bgc>not fully cleaned</> you’ll leave a trail of filth everywhere you go. Wouldn’t wanna help our unwanted invaders, right?"
+
+#. Key:	TUT_0_R3_COMBAT_1_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_COMBAT_1_8"
+msgid "TUT_0_R3_COMBAT_1_8"
+msgstr "Stop talking like that, I know what I am doing!"
+
+#. Key:	TUT_0_R3_FILTHY_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_FILTHY_1"
+msgid "TUT_0_R3_FILTHY_1"
+msgstr "There we go, mark of a good housemaid: Weapons primed and a spotless apron!"
+
+#. Key:	TUT_0_R3_FILTHY_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_FILTHY_2"
+msgid "TUT_0_R3_FILTHY_2"
+msgstr "As you may have noticed, our enemies are <b>far too weak to actually hurt you</>. So their attacks just get you <bgc>FILTHY</> instead. So keep an eye on your <bcc>HP</>. Your Hygiene Points."
+
+#. Key:	TUT_0_R3_FILTHY_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_FILTHY_3"
+msgid "TUT_0_R3_FILTHY_3"
+msgstr "<bcc>Clean-o-Matics</> clean you up nice and good, but they take time to recharge after each use. You can use them while they are not completely filled, but they'll heal you <b>less</>..."
+
+#. Key:	TUT_0_R3_FILTHY_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_FILTHY_4"
+msgid "TUT_0_R3_FILTHY_4"
+msgstr "While you are <bgc>FILTHY</> you won’t be able to clean! Plus if the room you are in is <bgc>not fully cleaned</> you’ll leave a trail of filth everywhere you go. Wouldn’t wanna help our unwanted invaders, right?"
+
+#. Key:	TUT_0_R3_FILTHY_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_FILTHY_5"
+msgid "TUT_0_R3_FILTHY_5"
+msgstr "I already knew that…"
+
+#. Key:	TUT_0_R3_FILTHY_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_0_R3_FILTHY_6"
+msgid "TUT_0_R3_FILTHY_6"
+msgstr "Everyone needs a refresher from time to time! Now lets keep going, we still have <bgc>Oozers</> on the loose!"
+
+#. Key:	TUT_1_BUFFFILTH_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_BUFFFILTH_1"
+msgid "TUT_1_BUFFFILTH_1"
+msgstr "<b>YIKES</>!! Look at this place! It’s revolting! And the <bgc>Oozers</>… They don’t look stronger, but they <c>definitely</> look much, much <bgc>tougher</>!"
+
+#. Key:	TUT_1_BUFFFILTH_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_BUFFFILTH_2"
+msgid "TUT_1_BUFFFILTH_2"
+msgstr "Yes, when a room is <bgc>too filthy</>, our enemies get much harder to kill since <bgc>their bodies absorb more of my attacks</>."
+
+#. Key:	TUT_1_BUFFFILTH_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_BUFFFILTH_3"
+msgid "TUT_1_BUFFFILTH_3"
+msgstr "So if we <bcc>clean</> enough, they’ll turn back into soft, squishy, wimpy little punching bags?"
+
+#. Key:	TUT_1_BUFFFILTH_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_BUFFFILTH_4"
+msgid "TUT_1_BUFFFILTH_4"
+msgstr "That is good a way to put it."
+
+#. Key:	TUT_1_BUFFFILTH_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_BUFFFILTH_5"
+msgid "TUT_1_BUFFFILTH_5"
+msgstr "Crystal clear! From now on, any room so filthy it actually <bgc>buffs</> our enemies will be marked <bgc>FULLY GREEN</> on the minimap."
+
+#. Key:	TUT_1_BUFFFILTH_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_BUFFFILTH_6"
+msgid "TUT_1_BUFFFILTH_6"
+msgstr "Keep an eye out for these rooms. They’ll definitely take longer to deal with!"
+
+#. Key:	TUT_1_BUFFFILTH_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_BUFFFILTH_7"
+msgid "TUT_1_BUFFFILTH_7"
+msgstr "Keep an eye out for these rooms. They’ll definitely take longer to deal with!"
+
+#. Key:	TUT_1_CRREWARDS_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_CRREWARDS_1"
+msgid "TUT_1_CRREWARDS_1"
+msgstr "I'm ready to go. Let's show these pests who's boss!"
+
+#. Key:	TUT_1_CRREWARDS_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_CRREWARDS_2"
+msgid "TUT_1_CRREWARDS_2"
+msgstr "Splendid! Just a teeny, tiny refresher: Every time you clean a room to completion you will be gifted with some <bcc>extra time</>. But extra time isn’t the only thing you get!"
+
+#. Key:	TUT_1_CRREWARDS_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_CRREWARDS_3"
+msgid "TUT_1_CRREWARDS_3"
+msgstr "Every room also throws in a little bonus!! For example: <bcc>Kitchens</> will give ya even <bcc>more time</>, and <bcc>Living Rooms</> will give you some free charge for your <bcc>SPECIAL ATTACK</>!"
+
+#. Key:	TUT_1_CRREWARDS_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_CRREWARDS_4"
+msgid "TUT_1_CRREWARDS_4"
+msgstr "Other rooms will have different little rewards, all of that <c>on top</> of the bonus time. Pretty sweet deal, right? Keep an eye on the bottom right of your minimap, there you'll see the reward of the room you are in."
+
+#. Key:	TUT_1_CRREWARDS_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_CRREWARDS_5"
+msgid "TUT_1_CRREWARDS_5"
+msgstr "Hm… that <c>is</> very useful. How do you manage to do that anyways?"
+
+#. Key:	TUT_1_CRREWARDS_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_CRREWARDS_6"
+msgid "TUT_1_CRREWARDS_6"
+msgstr "That is a secret of the trade! Remind me to tell you when you retire. As I always say: <b>Keep your tricks in a basket, or someone else will snatch 'em!</>"
+
+#. Key:	TUT_1_CRREWARDS_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_CRREWARDS_7"
+msgid "TUT_1_CRREWARDS_7"
+msgstr "Hmmf…"
+
+#. Key:	TUT_1_CRREWARDS_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_1_CRREWARDS_8"
+msgid "TUT_1_CRREWARDS_8"
+msgstr "Hmmf…"
+
+#. Key:	TUT_COMPLETE_ARSENAL_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_COMPLETE_ARSENAL_1"
+msgid "TUT_COMPLETE_ARSENAL_1"
+msgstr "The <bcc>Dirtminator?</>? What did you do to it?"
+
+#. Key:	TUT_COMPLETE_ARSENAL_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_COMPLETE_ARSENAL_2"
+msgid "TUT_COMPLETE_ARSENAL_2"
+msgstr "Just removed the muffler, tightened some screws, changed the <bcc>black hole engine</>, and gave it a fresh coat of paint! Barely had to tweak it!"
+
+#. Key:	TUT_COMPLETE_ARSENAL_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_COMPLETE_ARSENAL_3"
+msgid "TUT_COMPLETE_ARSENAL_3"
+msgstr "This baby doesn’t just clean dust anymore. It inhales filth, exhales destruction, and completely <b>voids</> its warranty every single time you pull the trigger! Like any good felony!"
+
+#. Key:	TUT_COMPLETE_ARSENAL_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_COMPLETE_ARSENAL_4"
+msgid "TUT_COMPLETE_ARSENAL_4"
+msgstr "As long as it works, I don’t care about warranties."
+
+#. Key:	TUT_COMPLETE_ARSENAL_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_COMPLETE_ARSENAL_5"
+msgid "TUT_COMPLETE_ARSENAL_5"
+msgstr "Atta maid! That’s the spirit! I’ll leave it in your <bcc>WEAPONS CHEST</> for you to pick as you do with any of your weapons."
+
+#. Key:	TUT_COMPLETE_ARSENAL_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_COMPLETE_ARSENAL_6"
+msgid "TUT_COMPLETE_ARSENAL_6"
+msgstr "This bad boy will replace <bcc>Dusty</> in your fight against, well… <bgc>dust</>! If you decide to take it with you that is."
+
+#. Key:	TUT_COMPLETE_ARSENAL_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_COMPLETE_ARSENAL_7"
+msgid "TUT_COMPLETE_ARSENAL_7"
+msgstr "Very well. With the <bcc>Dirtminator</> back in my hands my arsenal is complete."
+
+#. Key:	TUT_EXPO_CHEST_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_1"
+msgid "TUT_EXPO_CHEST_1"
+msgstr "Wait, <b>you</> had <b>this</> all along? I’ve been looking around for it for days!"
+
+#. Key:	TUT_EXPO_CHEST_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_10"
+msgid "TUT_EXPO_CHEST_10"
+msgstr "Now this is why we make such a good team. We are great at exposition for the gamers!"
+
+#. Key:	TUT_EXPO_CHEST_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_11"
+msgid "TUT_EXPO_CHEST_11"
+msgstr "The wh-"
+
+#. Key:	TUT_EXPO_CHEST_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_12"
+msgid "TUT_EXPO_CHEST_12"
+msgstr "<bst>Now onwards!</>"
+
+#. Key:	TUT_EXPO_CHEST_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_2"
+msgid "TUT_EXPO_CHEST_2"
+msgstr "Sorry! Didn’t think you’d need it again for a while! Was thinking of giving it back with a detachable handle so you could have some nice add-ons on it…"
+
+#. Key:	TUT_EXPO_CHEST_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_3"
+msgid "TUT_EXPO_CHEST_3"
+msgstr "Shame the <bcc>development team</> ran out of time…"
+
+#. Key:	TUT_EXPO_CHEST_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_4"
+msgid "TUT_EXPO_CHEST_4"
+msgstr "Development… team...?"
+
+#. Key:	TUT_EXPO_CHEST_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_5"
+msgid "TUT_EXPO_CHEST_5"
+msgstr "Nevermind that! You see <bgc>Ooze</> isn’t the only type of filth you have to deal with. <bgc>Dust</> is also an issue!"
+
+#. Key:	TUT_EXPO_CHEST_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_6"
+msgid "TUT_EXPO_CHEST_6"
+msgstr "It's wise to take a weapon to deal with it, since you know… <bcc>Washee and Flashee</> can’t deal with it at all!"
+
+#. Key:	TUT_EXPO_CHEST_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_7"
+msgid "TUT_EXPO_CHEST_7"
+msgstr "Likewise, <bcc>Dusty</> here will be useless against <bgc>ooze</>. I must use the right tool for the right obstacle."
+
+#. Key:	TUT_EXPO_CHEST_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_8"
+msgid "TUT_EXPO_CHEST_8"
+msgstr "Exactly! Each weapon deals with a specific type of filth, and each has its own <bcc>SPECIAL ATTACK</> bar that fills up separately from the other. Also, <b>the controls remain the same</>. Elegant and conveniently ergonomic, right?"
+
+#. Key:	TUT_EXPO_CHEST_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_CHEST_9"
+msgid "TUT_EXPO_CHEST_9"
+msgstr "Here in your <bcc>WEAPONS CHEST</> you can check your weapons at any time before you start your shift. See what they do and whatnot."
+
+#. Key:	TUT_EXPO_WEAPONLIMIT_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WEAPONLIMIT_1"
+msgid "TUT_EXPO_WEAPONLIMIT_1"
+msgstr "Oh ho ho ho! Now we are talking! We are bringing in the big guns now? Why haven't you taken the <bcc>Mopressor</> out for a spin lately?"
+
+#. Key:	TUT_EXPO_WEAPONLIMIT_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WEAPONLIMIT_2"
+msgid "TUT_EXPO_WEAPONLIMIT_2"
+msgstr "Just had to add a few special touches. Switched the old handle with one made of industrial-grade <bcc>cleanium</>, and weighted the head with ultra-dense <bcc>Armstrong Cleaning Gel™</>."
+
+#. Key:	TUT_EXPO_WEAPONLIMIT_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WEAPONLIMIT_3"
+msgid "TUT_EXPO_WEAPONLIMIT_3"
+msgstr "Now <b>that</> sounds incredibly reckless, irresponsible.. and fun! It is less of a cleaning accessory and closer to a war crime really... Are you sure you don't need a permit to own it?"
+
+#. Key:	TUT_EXPO_WEAPONLIMIT_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WEAPONLIMIT_4"
+msgid "TUT_EXPO_WEAPONLIMIT_4"
+msgstr "Yeah, yeah... The <bcc>Mopressor</> is quite useful. Shame I can’t bring both it and <bcc>Washee and Flashee</> out with me on the same day. I’ll have to <b>pick one or the other</> and roll with it."
+
+#. Key:	TUT_EXPO_WEAPONLIMIT_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WEAPONLIMIT_5"
+msgid "TUT_EXPO_WEAPONLIMIT_5"
+msgstr "Yes, weapon choice is <b>very</> important! You have to make all that floor-sweeping violence entertaining for your number one fan: <b>ME</>!"
+
+#. Key:	TUT_EXPO_WORKSH_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_1"
+msgid "TUT_EXPO_WORKSH_1"
+msgstr "What the…? Is this what you’ve been working on all these nights while I was trying to get some sleep? What even is all this junk?"
+
+#. Key:	TUT_EXPO_WORKSH_10
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_10"
+msgid "TUT_EXPO_WORKSH_10"
+msgstr "Use the <b>Left Joystick</> or use the <b>A</> and <b>D</> keys to scroll through the <bcc>WORKSHOP</>. When you see a gadget you like, press <b>ENTER</> key or the <b>A Button</> on your controller to equip them on the gadget slots seen bellow."
+
+#. Key:	TUT_EXPO_WORKSH_11
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_11"
+msgid "TUT_EXPO_WORKSH_11"
+msgstr "While on your shift, you can use the gadget in each slot by <b>pressing the gadget buttons</>. You can see them at the <b>Bottom Right</> of your screen."
+
+#. Key:	TUT_EXPO_WORKSH_12
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_12"
+msgid "TUT_EXPO_WORKSH_12"
+msgstr "If you change your mind, you can swap ‘em as much as you want. <bcc>As long as you’re still in this room</> that is. Just come to my <bcc>WORKSHOP</> and browse as you please!"
+
+#. Key:	TUT_EXPO_WORKSH_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_2"
+msgid "TUT_EXPO_WORKSH_2"
+msgstr "Junk? <b>JUNK?!</> These, my friend, are top-notch <bcc>cleaning gadgets</>!"
+
+#. Key:	TUT_EXPO_WORKSH_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_3"
+msgid "TUT_EXPO_WORKSH_3"
+msgstr "Cleaning gadgets?"
+
+#. Key:	TUT_EXPO_WORKSH_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_4"
+msgid "TUT_EXPO_WORKSH_4"
+msgstr "You heard me right! Each one, <c>carefully… magnificently…</> borderline <b>unethically</> crafted to help you clean and kick butt!"
+
+#. Key:	TUT_EXPO_WORKSH_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_5"
+msgid "TUT_EXPO_WORKSH_5"
+msgstr "Very well then, I’ll take one of each…"
+
+#. Key:	TUT_EXPO_WORKSH_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_6"
+msgid "TUT_EXPO_WORKSH_6"
+msgstr "Whoa, whoa! Hold your bow there, champ!"
+
+#. Key:	TUT_EXPO_WORKSH_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_7"
+msgid "TUT_EXPO_WORKSH_7"
+msgstr "Where do you think you’re gonna stash ‘em, huh? That apron of yours doesn’t exactly have cargo pockets!"
+
+#. Key:	TUT_EXPO_WORKSH_8
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_8"
+msgid "TUT_EXPO_WORKSH_8"
+msgstr "If I had to shoot a wild, generous guess… I’d say you’ll be able to carry, umm… <bcc>two gadgets max!</>. So choose wisely!"
+
+#. Key:	TUT_EXPO_WORKSH_9
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_EXPO_WORKSH_9"
+msgid "TUT_EXPO_WORKSH_9"
+msgstr "Two maximum, eh? I can work with that."
+
+#. Key:	TUT_GUIDE_1_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_GUIDE_1_1"
+msgid "TUT_GUIDE_1_1"
+msgstr "Hey! Hey Dorothy! Would you be so kind as to gift me but a moment of your time? I’ll make it worthwhile!"
+
+#. Key:	TUT_GUIDE_2_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_GUIDE_2_1"
+msgid "TUT_GUIDE_2_1"
+msgstr "Dorothyyyyyyyy! My good friend, my best client, my good, truest lethal roommate. Mind gifting me with your presence?"
+
+#. Key:	TUT_GUIDE_3_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_GUIDE_3_1"
+msgid "TUT_GUIDE_3_1"
+msgstr "Hey! Hey Dorothy, get over here a sec!"
+
+#. Key:	TUT_GUIDE_3_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_GUIDE_3_2"
+msgid "TUT_GUIDE_3_2"
+msgstr "If you let me borrow a few minutes of your time, that would be great."
+
+#. Key:	TUT_INTRO_DUST_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_DUST_1"
+msgid "TUT_INTRO_DUST_1"
+msgstr "Alright I’m here, what is it?"
+
+#. Key:	TUT_INTRO_DUST_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_DUST_2"
+msgid "TUT_INTRO_DUST_2"
+msgstr "Just wanted to see your beautifully determined face! Like a freshly-chiseled angry stone, what a mug!"
+
+#. Key:	TUT_INTRO_DUST_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_DUST_3"
+msgid "TUT_INTRO_DUST_3"
+msgstr "... I’m leaving."
+
+#. Key:	TUT_INTRO_DUST_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_DUST_4"
+msgid "TUT_INTRO_DUST_4"
+msgstr "No wait! I was just kidding! See I wanted to give you a little heads up… Can you smell it?"
+
+#. Key:	TUT_INTRO_DUST_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_DUST_5"
+msgid "TUT_INTRO_DUST_5"
+msgstr "... Smell what?"
+
+#. Key:	TUT_INTRO_DUST_6
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_DUST_6"
+msgid "TUT_INTRO_DUST_6"
+msgstr "That smell, that <b>dusty</> smell. That smell of dust that smells… <bgc>dusty</>!"
+
+#. Key:	TUT_INTRO_DUST_7
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_DUST_7"
+msgid "TUT_INTRO_DUST_7"
+msgstr "We might have some <bgc>returning guests</> today, so I thought you could use this…"
+
+#. Key:	TUT_INTRO_MOP_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_MOP_1"
+msgid "TUT_INTRO_MOP_1"
+msgstr "I think the <bgc>Grimelings</> are up to something. Something fetid, and disgustingly bad!"
+
+#. Key:	TUT_INTRO_MOP_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_MOP_2"
+msgid "TUT_INTRO_MOP_2"
+msgstr "Like, “sweaty sports socks mixed with raw onions, all blended together with expired eggs <b>and</> red wine, which then you pour <c>straight</> onto a white sofa” kind of <b>BAD</>!"
+
+#. Key:	TUT_INTRO_MOP_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_MOP_3"
+msgid "TUT_INTRO_MOP_3"
+msgstr "I know what you mean. I think its time I introduce them to an <bcc>old friend of mine</>…"
+
+#. Key:	TUT_INTRO_VAC_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_VAC_1"
+msgid "TUT_INTRO_VAC_1"
+msgstr "Alright I’m here. What do you want?"
+
+#. Key:	TUT_INTRO_VAC_2
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_VAC_2"
+msgid "TUT_INTRO_VAC_2"
+msgstr "So, remember when you gave me permission to add cool new features to your cleaning arsenal?"
+
+#. Key:	TUT_INTRO_VAC_3
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_VAC_3"
+msgid "TUT_INTRO_VAC_3"
+msgstr "You even agreed to give me about 25% of your salary to spend, so I could give ‘em fun modifications? Remember that?"
+
+#. Key:	TUT_INTRO_VAC_4
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_VAC_4"
+msgid "TUT_INTRO_VAC_4"
+msgstr "I don’t remember ever agreeing to either of those things, or even discussing it. Wait, what did you d-"
+
+#. Key:	TUT_INTRO_VAC_5
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,TUT_INTRO_VAC_5"
+msgid "TUT_INTRO_VAC_5"
+msgstr "Look what I got for you!!"
+
+#. Key:	﻿TUT_0_R1_MOVAIM_1
+#. SourceLocation:	/Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+#: /Game/Data/StringTables/ST_DIALOGS.ST_DIALOGS
+msgctxt "ST_DIALOGS,﻿TUT_0_R1_MOVAIM_1"
+msgid "﻿TUT_0_R1_MOVAIM_1"
+msgstr "Ahhh, smell that? That’s the smell of opportunity! … Or maybe something slimy died in a corner. Either way, I’m excited!"
+
+#. Key:	T_LEV0_P_CLEAN
+#. SourceLocation:	/Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+#: /Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+msgctxt "ST_POPUPS,T_LEV0_P_CLEAN"
+msgid "T_LEV0_P_CLEAN"
+msgstr "You can Clean using RIGHT CLICK or LT"
+
+#. Key:	T_LEV0_P_COMBAT
+#. SourceLocation:	/Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+#: /Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+msgctxt "ST_POPUPS,T_LEV0_P_COMBAT"
+msgid "T_LEV0_P_COMBAT"
+msgstr "You can Attack your enemies using LEFT CLICK or RT"
+
+#. Key:	T_LEV0_P_ENEMYBUFF
+#. SourceLocation:	/Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+#: /Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+msgctxt "ST_POPUPS,T_LEV0_P_ENEMYBUFF"
+msgid "T_LEV0_P_ENEMYBUFF"
+msgstr "Clean the room to weaken the enemies!"
+
+#. Key:	T_LEV0_P_MOV
+#. SourceLocation:	/Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+#: /Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+msgctxt "ST_POPUPS,T_LEV0_P_MOV"
+msgid "T_LEV0_P_MOV"
+msgstr "Move: WASD or LEFT joystickAim: MOUSE or RIGHT joystickDash: SPACE or RB Button"
+
+#. Key:	T_LEV0_P_NOHP
+#. SourceLocation:	/Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+#: /Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+msgctxt "ST_POPUPS,T_LEV0_P_NOHP"
+msgid "T_LEV0_P_NOHP"
+msgstr "While you are FILTHY you won't be able to clean. Keep an eye on your HP!"
+
+#. Key:	T_LEV2_P_SWITCHWPN
+#. SourceLocation:	/Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+#: /Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+msgctxt "ST_POPUPS,T_LEV2_P_SWITCHWPN"
+msgid "T_LEV2_P_SWITCHWPN"
+msgstr "Switch weapons with SHIFT or the X Button"
+
+#. Key:	T_LEV3_P_GRIMELING
+#. SourceLocation:	/Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+#: /Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+msgctxt "ST_POPUPS,T_LEV3_P_GRIMELING"
+msgid "T_LEV3_P_GRIMELING"
+msgstr "Grimeling's gas attacks make enemies more powerful and drain you SPECIAL BAR"
+
+#. Key:	T_LEV3_P_ITEM
+#. SourceLocation:	/Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+#: /Game/Data/StringTables/ST_POPUPS.ST_POPUPS
+msgctxt "ST_POPUPS,T_LEV3_P_ITEM"
+msgid "T_LEV3_P_ITEM"
+msgstr "Use your gadgets by pressing Q and E keys, or the Y and B buttons"
+
+#. Key:	T_CID_B_1
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_B_1"
+msgid "T_CID_B_1"
+msgstr "As I always say: To work in mint conditions, start with a good nutrition!"
+
+#. Key:	T_CID_B_2
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_B_2"
+msgid "T_CID_B_2"
+msgstr "This vitamin will give you all the strength you need!"
+
+#. Key:	T_CID_B_3
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_B_3"
+msgid "T_CID_B_3"
+msgstr "B-Believe me! It's totally legal..."
+
+#. Key:	T_CID_B_INFO
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_B_INFO"
+msgid "T_CID_B_INFO"
+msgstr "Briefly increase your movement and attack speed!"
+
+#. Key:	T_CID_C_1
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_C_1"
+msgid "T_CID_C_1"
+msgstr "As I always say: Everything finds their doom with a BIG BOOM!!"
+
+#. Key:	T_CID_C_2
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_C_2"
+msgid "T_CID_C_2"
+msgstr "My experience with technomagical weapons led me to this Clean (4) masterpiece!"
+
+#. Key:	T_CID_C_3
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_C_3"
+msgid "T_CID_C_3"
+msgstr "I sometimes have nightmares because of that red flickering light..."
+
+#. Key:	T_CID_C_INFO
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_C_INFO"
+msgid "T_CID_C_INFO"
+msgstr "Set a proximity bomb that cleans and deals great damage!"
+
+#. Key:	T_CID_D_1
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_D_1"
+msgid "T_CID_D_1"
+msgstr "As I always say: If the mansion you want to clean, a good companion you need!"
+
+#. Key:	T_CID_D_2
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_D_2"
+msgid "T_CID_D_2"
+msgstr "One of my best creations. It can clean everything!"
+
+#. Key:	T_CID_D_3
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_D_3"
+msgid "T_CID_D_3"
+msgstr "Not gonna lie, my heart kind of melts when it barks..."
+
+#. Key:	T_CID_D_INFO
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_D_INFO"
+msgid "T_CID_D_INFO"
+msgstr "Deploy a cleaning robot that feeds on ooze and dust."
+
+#. Key:	T_CID_M_1
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_M_1"
+msgid "T_CID_M_1"
+msgstr "As I always say: Nothing like the attraction of a good distraction!"
+
+#. Key:	T_CID_M_2
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_M_2"
+msgid "T_CID_M_2"
+msgstr "It secretes pheromones that attract monsters! I'm very proud of that."
+
+#. Key:	T_CID_M_3
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_M_3"
+msgid "T_CID_M_3"
+msgstr "It looks so much like you that it gives me the creeps!"
+
+#. Key:	T_CID_M_INFO
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_M_INFO"
+msgid "T_CID_M_INFO"
+msgstr "Deploy a dummy that attracts all enemy attacks."
+
+#. Key:	T_CID_P_1
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_P_1"
+msgid "T_CID_P_1"
+msgstr "As I always say: Sharp suit, more loot!"
+
+#. Key:	T_CID_P_2
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_P_2"
+msgid "T_CID_P_2"
+msgstr "This N.E.W. clothes are a perfect replica of your working attire."
+
+#. Key:	T_CID_P_3
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_P_3"
+msgid "T_CID_P_3"
+msgstr "Nanotechnologically Empowered Washing Apron! I love the name..."
+
+#. Key:	T_CID_P_INFO
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_CID_P_INFO"
+msgid "T_CID_P_INFO"
+msgstr "Fully clean yourself by changing clothes in an instant!"
+
+#. Key:	T_QUALITY_HIGH
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_QUALITY_HIGH"
+msgid "T_QUALITY_HIGH"
+msgstr "High"
+
+#. Key:	T_QUALITY_LOW
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_QUALITY_LOW"
+msgid "T_QUALITY_LOW"
+msgstr "Low"
+
+#. Key:	T_QUALITY_MEDIUM
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_QUALITY_MEDIUM"
+msgid "T_QUALITY_MEDIUM"
+msgstr "Medium"
+
+#. Key:	T_QUALITY_ULTRA
+#. SourceLocation:	/Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+#: /Game/Data/StringTables/ST_SELECTORS.ST_SELECTORS
+msgctxt "ST_SELECTORS,T_QUALITY_ULTRA"
+msgid "T_QUALITY_ULTRA"
+msgstr "Ultra"
+
+#. Key:	L_TIP_001
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_001"
+msgid "L_TIP_001"
+msgstr "Washee & Flashee are cousins, not brothers as people may think."
+
+#. Key:	L_TIP_002
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_002"
+msgid "L_TIP_002"
+msgstr "Dorothy is Italian."
+
+#. Key:	L_TIP_003
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_003"
+msgid "L_TIP_003"
+msgstr "Oozers around the world are made of every type of material."
+
+#. Key:	L_TIP_004
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_004"
+msgid "L_TIP_004"
+msgstr "Dorothy's favourite music band is Brooms N' Roses."
+
+#. Key:	L_TIP_005
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_005"
+msgid "L_TIP_005"
+msgstr "Lord Kaios can't drive, he has yet to do his exams."
+
+#. Key:	L_TIP_006
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_006"
+msgid "L_TIP_006"
+msgstr "Grimelings wear masks to protect themselves against their own smell."
+
+#. Key:	L_TIP_007
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_007"
+msgid "L_TIP_007"
+msgstr "Oozers are all family."
+
+#. Key:	L_TIP_008
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_008"
+msgid "L_TIP_008"
+msgstr "Terry the Extinguisher ran to Argentina in 1945."
+
+#. Key:	L_TIP_009
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_009"
+msgid "L_TIP_009"
+msgstr "Terry the Extinguisher was employee of the month in 1943."
+
+#. Key:	L_TIP_010
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_010"
+msgid "L_TIP_010"
+msgstr "The Dirtminator works using the energy of thousands of Dust Bunny souls."
+
+#. Key:	L_TIP_011
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_011"
+msgid "L_TIP_011"
+msgstr "Dorothy has a ferret pet."
+
+#. Key:	L_TIP_012
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_012"
+msgid "L_TIP_012"
+msgstr "Dorothy has an 8 rod umbrella."
+
+#. Key:	L_TIP_013
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_013"
+msgid "L_TIP_013"
+msgstr "Castle parties are organized by fish."
+
+#. Key:	L_TIP_014
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_014"
+msgid "L_TIP_014"
+msgstr "Lord Kaios cannot play the piano. One of his fish does."
+
+#. Key:	L_TIP_015
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_015"
+msgid "L_TIP_015"
+msgstr "Lord Kaios loves beer pong."
+
+#. Key:	L_TIP_016
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_016"
+msgid "L_TIP_016"
+msgstr "Lord Kaios doesn't use underwear."
+
+#. Key:	L_TIP_017
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_017"
+msgid "L_TIP_017"
+msgstr "Lord Kaios nearly became a battle pass skin in a famous videogame."
+
+#. Key:	L_TIP_018
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_018"
+msgid "L_TIP_018"
+msgstr "The Iron Moustache was in love with Lord Kaios' sister."
+
+#. Key:	L_TIP_019
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_019"
+msgid "L_TIP_019"
+msgstr "Gorch can't stop talking about Cleanium... No one knows what it is."
+
+#. Key:	L_TIP_020
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_020"
+msgid "L_TIP_020"
+msgstr "Gorch dances clake (No one can verify it, but he does)."
+
+#. Key:	L_TIP_021
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_021"
+msgid "L_TIP_021"
+msgstr "Before this story, Dorothy was arrested for smuggling bleach."
+
+#. Key:	L_TIP_022
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_022"
+msgid "L_TIP_022"
+msgstr "You may be able to find a torture room in the mansion..."
+
+#. Key:	L_TIP_023
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_023"
+msgid "L_TIP_023"
+msgstr "Necronomideck is the favourite card game in the mansion."
+
+#. Key:	L_TIP_024
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_024"
+msgid "L_TIP_024"
+msgstr "Lord Kaios skiis in a mountain full of golem corpses."
+
+#. Key:	L_TIP_025
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_025"
+msgid "L_TIP_025"
+msgstr "Lord Kaios inherited his passion for plants from his deceased wife."
+
+#. Key:	L_TIP_026
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_026"
+msgid "L_TIP_026"
+msgstr "Gorch learned everything he knows from a merchants caravan."
+
+#. Key:	L_TIP_027
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_027"
+msgid "L_TIP_027"
+msgstr "Dorothy and Lord Kaios met each other under the heat of battle."
+
+#. Key:	L_TIP_028
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_028"
+msgid "L_TIP_028"
+msgstr "Dorothy is the daughter of a famous secret agent."
+
+#. Key:	L_TIP_029
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_029"
+msgid "L_TIP_029"
+msgstr "Gorch is so beautiful he makes people faint."
+
+#. Key:	L_TIP_030
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_030"
+msgid "L_TIP_030"
+msgstr "Lord Kaios only eats hake."
+
+#. Key:	L_TIP_031
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_031"
+msgid "L_TIP_031"
+msgstr "Gorchifly butterflies are Lord Kaios's favourite animal."
+
+#. Key:	L_TIP_032
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_032"
+msgid "L_TIP_032"
+msgstr "The mansion has an attic."
+
+#. Key:	L_TIP_033
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_033"
+msgid "L_TIP_033"
+msgstr "Dust Bunnies are known for plumbing in their free time."
+
+#. Key:	L_TIP_034
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_034"
+msgid "L_TIP_034"
+msgstr "Oozers run like bananas."
+
+#. Key:	L_TIP_035
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_035"
+msgid "L_TIP_035"
+msgstr "Lord Kaios doesn't know Gorch lives in his mansion."
+
+#. Key:	L_TIP_036
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_036"
+msgid "L_TIP_036"
+msgstr "When fighting with Moppressor, hit your enemies within the dark blue area for double damage."
+
+#. Key:	L_TIP_037
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_037"
+msgid "L_TIP_037"
+msgstr "If an Ash Bunny hides within a dust mound, destroy its home to leave it stunned and vulnerable!"
+
+#. Key:	L_TIP_038
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_038"
+msgid "L_TIP_038"
+msgstr "Dashing while cleaning with Moppressor marks all enemies hit. Attack them for extra damage!"
+
+#. Key:	L_TIP_039
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_039"
+msgid "L_TIP_039"
+msgstr "Enemies love their rooms dirty! If you spot shields around them, clean the room before attacking."
+
+#. Key:	L_TIP_040
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_040"
+msgid "L_TIP_040"
+msgstr "Time won't start ticking until you leave the first room. Use the minimap to plan the perfect route!"
+
+#. Key:	L_TIP_041
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_041"
+msgid "L_TIP_041"
+msgstr "Washee's cleaning aroma leaves enemies tipsy. Soak them repeatedly to completely stun them."
+
+#. Key:	L_TIP_042
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_042"
+msgid "L_TIP_042"
+msgstr "Don't let enemies back you into a corner! Dash through them to escape without taking damage."
+
+#. Key:	L_TIP_043
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_043"
+msgid "L_TIP_043"
+msgstr "Grimelings' nauseous gas will take away some of your Special charge. Keep your distance!"
+
+#. Key:	L_TIP_044
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_044"
+msgid "L_TIP_044"
+msgstr "Inhaling Grimeling gas can make enemies agressive. If you see a green glow on them, run!"
+
+#. Key:	L_TIP_045
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_045"
+msgid "L_TIP_045"
+msgstr "Clean-o-Matic stations take time to fully recharge. Alternate between them for more efficiency!"
+
+#. Key:	L_TIP_046
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_046"
+msgid "L_TIP_046"
+msgstr "Fully cleaning a room will grant you extra time. The bigger the room, the more time you receive."
+
+#. Key:	L_TIP_047
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_047"
+msgid "L_TIP_047"
+msgstr "Dust Bunnies giving you a hard time? Dusty and Dirtminator are your mass murder weapons of choice."
+
+#. Key:	L_TIP_048
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_048"
+msgid "L_TIP_048"
+msgstr "Oozers HATE clean water. Splash them with Flashee and Moppressor, and watch them dance."
+
+#. Key:	L_TIP_049
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_049"
+msgid "L_TIP_049"
+msgstr "The reward you get after fully cleaning a room will depend on the room's type."
+
+#. Key:	L_TIP_050
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_050"
+msgid "L_TIP_050"
+msgstr "Clean 4 mines will make nearby Clean 4 mines explode! CHAIN REACTION!!!"
+
+#. Key:	L_TIP_051
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_051"
+msgid "L_TIP_051"
+msgstr "Wielding Dusty will reveal dust mound weak points. Aim at them to instantly clean them."
+
+#. Key:	L_TIP_052
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_052"
+msgid "L_TIP_052"
+msgstr "You walk at increased speed while traversing fully cleaned rooms. Convenient!"
+
+#. Key:	L_TIP_053
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_053"
+msgid "L_TIP_053"
+msgstr "Hungry for that tempting S grade? Avoid getting filthy and use as many consumables as you can!"
+
+#. Key:	L_TIP_054
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_054"
+msgid "L_TIP_054"
+msgstr "Lord Kaios has never managed to claim both star medals in a single game in his life."
+
+#. Key:	L_TIP_055
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_055"
+msgid "L_TIP_055"
+msgstr "Win a game without receiving a single hit to be rewarded with a star medal."
+
+#. Key:	L_TIP_056
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_056"
+msgid "L_TIP_056"
+msgstr "If you finish a game with more time than you started with, you will receive a star medal."
+
+#. Key:	L_TIP_057
+#. SourceLocation:	/Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+#: /Game/Data/StringTables/ST_TIPDATA.ST_TIPDATA
+msgctxt "ST_TIPDATA,L_TIP_057"
+msgid "L_TIP_057"
+msgstr "You can move in any direction during Dusty's combo, but the third hit will always carry you forward."
+
+#. Key:	B_CONTINUE
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_CONTINUE"
+msgid "B_CONTINUE"
+msgstr "Continue"
+
+#. Key:	B_EXIT
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_EXIT"
+msgid "B_EXIT"
+msgstr "Exit"
+
+#. Key:	B_EXTRAS
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_EXTRAS"
+msgid "B_EXTRAS"
+msgstr "Extras"
+
+#. Key:	B_LOAD_GAME
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_LOAD_GAME"
+msgid "B_LOAD_GAME"
+msgstr "Load Game"
+
+#. Key:	B_NEW_GAME
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_NEW_GAME"
+msgid "B_NEW_GAME"
+msgstr "New Game"
+
+#. Key:	B_OPTIONS
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_OPTIONS"
+msgid "B_OPTIONS"
+msgstr "Options"
+
+#. Key:	B_PLAY
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_PLAY"
+msgid "B_PLAY"
+msgstr "Play"
+
+#. Key:	B_QUIT_GAME
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_QUIT_GAME"
+msgid "B_QUIT_GAME"
+msgstr "Quit Game"
+
+#. Key:	B_RETRY
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_RETRY"
+msgid "B_RETRY"
+msgstr "Retry"
+
+#. Key:	B_RETURN_TO_HUB
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_RETURN_TO_HUB"
+msgid "B_RETURN_TO_HUB"
+msgstr "Return to HUB"
+
+#. Key:	B_SETTINGS
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_SETTINGS"
+msgid "B_SETTINGS"
+msgstr "Settings"
+
+#. Key:	B_SKIP_TUTORIAL
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,B_SKIP_TUTORIAL"
+msgid "B_SKIP_TUTORIAL"
+msgstr "Skip Tutorial"
+
+#. Key:	L_AREYOUSURE
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_AREYOUSURE"
+msgid "L_AREYOUSURE"
+msgstr "Are you sure?"
+
+#. Key:	L_AUDIO_SETTINGS
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_AUDIO_SETTINGS"
+msgid "L_AUDIO_SETTINGS"
+msgstr "Audio"
+
+#. Key:	L_CONSUMABLES
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_CONSUMABLES"
+msgid "L_CONSUMABLES"
+msgstr "Consumables"
+
+#. Key:	L_DAY_NUMBER
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_DAY_NUMBER"
+msgid "L_DAY_NUMBER"
+msgstr "DAY: {0}"
+
+#. Key:	L_DIDYOUKNOW
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_DIDYOUKNOW"
+msgid "L_DIDYOUKNOW"
+msgstr "Did you know..."
+
+#. Key:	L_GAME_OVER
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_GAME_OVER"
+msgid "L_GAME_OVER"
+msgstr "Defeat"
+
+#. Key:	L_GRAPHIC_SETTINGS
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_GRAPHIC_SETTINGS"
+msgid "L_GRAPHIC_SETTINGS"
+msgstr "Graphics"
+
+#. Key:	L_LANGUAGE
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_LANGUAGE"
+msgid "L_LANGUAGE"
+msgstr "Language"
+
+#. Key:	L_LIMIT_FPS
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_LIMIT_FPS"
+msgid "L_LIMIT_FPS"
+msgstr "Limit FPS"
+
+#. Key:	L_MASTER
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_MASTER"
+msgid "L_MASTER"
+msgstr "Master"
+
+#. Key:	L_MUSIC
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_MUSIC"
+msgid "L_MUSIC"
+msgstr "Music"
+
+#. Key:	L_PAUSED
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_PAUSED"
+msgid "L_PAUSED"
+msgstr "Paused"
+
+#. Key:	L_PRESS
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_PRESS"
+msgid "L_PRESS"
+msgstr "Press"
+
+#. Key:	L_QUALITY
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_QUALITY"
+msgid "L_QUALITY"
+msgstr "Quality"
+
+#. Key:	L_RESOLUTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_RESOLUTION"
+msgid "L_RESOLUTION"
+msgstr "Resolution"
+
+#. Key:	L_RETURN
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_RETURN"
+msgid "L_RETURN"
+msgstr "Return"
+
+#. Key:	L_SKIP
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_SKIP"
+msgid "L_SKIP"
+msgstr "Skip (hold)"
+
+#. Key:	L_SOUNDFX
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_SOUNDFX"
+msgid "L_SOUNDFX"
+msgstr "SoundFX"
+
+#. Key:	L_TO_START
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_TO_START"
+msgid "L_TO_START"
+msgstr "to start"
+
+#. Key:	L_VSYNC
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_VSYNC"
+msgid "L_VSYNC"
+msgstr "VSYNC"
+
+#. Key:	L_WEAPONS
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_WEAPONS"
+msgid "L_WEAPONS"
+msgstr "Weapons"
+
+#. Key:	L_WIN
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,L_WIN"
+msgid "L_WIN"
+msgstr "Victory"
+
+#. Key:	T_CHEST_DM_ATTACK
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_DM_ATTACK"
+msgid "T_CHEST_DM_ATTACK"
+msgstr "Dirtminator will charge up and shoot a compressed air cannon ball, which explodes if charged enough. Hasta la vista!"
+
+#. Key:	T_CHEST_DM_CLEAN
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_DM_CLEAN"
+msgid "T_CHEST_DM_CLEAN"
+msgstr "Dirtminator will create a tornado that gulps dust in its growing path... Believe it, they won't be back."
+
+#. Key:	T_CHEST_DM_SPECIAL
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_DM_SPECIAL"
+msgid "T_CHEST_DM_SPECIAL"
+msgstr "Dirtminator enters overcharge, creating an air stream that cleans and kills everything. It's judgement time!"
+
+#. Key:	T_CHEST_DU_ATTACK
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_DU_ATTACK"
+msgid "T_CHEST_DU_ATTACK"
+msgstr "Dusty tightens its feathers, attacking twice, and ending the combo with the fearsome \"Serious Latex Punch\"."
+
+#. Key:	T_CHEST_DU_CLEAN
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_DU_CLEAN"
+msgid "T_CHEST_DU_CLEAN"
+msgstr "Dusty relaxes its feathers to clean. Aim at the Dust mounds weak spot for critical damage!"
+
+#. Key:	T_CHEST_DU_SPECIAL
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_DU_SPECIAL"
+msgid "T_CHEST_DU_SPECIAL"
+msgstr "Join forces with Dusty to spin at incredible speeds, creating a force that ends every monster and dust in its path."
+
+#. Key:	T_CHEST_MP_ATTACK
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_MP_ATTACK"
+msgid "T_CHEST_MP_ATTACK"
+msgstr "Moppressor sweeps in three-hit combos. The watery tip will deal extra damage to those pesky foes!"
+
+#. Key:	T_CHEST_MP_CLEAN
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_MP_CLEAN"
+msgid "T_CHEST_MP_CLEAN"
+msgstr "Moppressor is a mop. C'mon, what did you expect? Dash through enemies to mark them for huge damage!"
+
+#. Key:	T_CHEST_MP_SPECIAL
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_MP_SPECIAL"
+msgid "T_CHEST_MP_SPECIAL"
+msgstr "Charge increasingly more kinetic energy into Moppressor. When released, it unleashes the Ultimate Slam."
+
+#. Key:	T_CHEST_WF_ATTACK
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_WF_ATTACK"
+msgid "T_CHEST_WF_ATTACK"
+msgstr "Flashee will furiously shoot a powerful barrage, dealing damage with each water bullet."
+
+#. Key:	T_CHEST_WF_CLEAN
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_WF_CLEAN"
+msgid "T_CHEST_WF_CLEAN"
+msgstr "Washee will gracefully clean an area, applying slow to enemies if hit."
+
+#. Key:	T_CHEST_WF_SPECIAL
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_CHEST_WF_SPECIAL"
+msgid "T_CHEST_WF_SPECIAL"
+msgstr "Washee & Flashee join forces to produce a deadly water ball that can even clean through furniture!"
+
+#. Key:	T_FS_CONSUMABLES
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_FS_CONSUMABLES"
+msgid "T_FS_CONSUMABLES"
+msgstr "Used consumables: {0} pts"
+
+#. Key:	T_FS_STATION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_FS_STATION"
+msgid "T_FS_STATION"
+msgstr "Cleaning Stations Used: {0} pts"
+
+#. Key:	T_FS_TIME
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_FS_TIME"
+msgid "T_FS_TIME"
+msgstr "Left over time: {0} pts"
+
+#. Key:	T_LEVEL_10_DESCRIPTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_LEVEL_10_DESCRIPTION"
+msgid "T_LEVEL_10_DESCRIPTION"
+msgstr "Final day. Its all or nothing. Cleaning is your job. It is Dorothy's Job."
+
+#. Key:	T_LEVEL_1_DESCRIPTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_LEVEL_1_DESCRIPTION"
+msgid "T_LEVEL_1_DESCRIPTION"
+msgstr "Learn the timers and how to gain time by cleaning a room! The special attack will help you win, use it!"
+
+#. Key:	T_LEVEL_2_DESCRIPTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_LEVEL_2_DESCRIPTION"
+msgid "T_LEVEL_2_DESCRIPTION"
+msgstr "A new enemy appeared! Use your new weapon to attack it... and to clean it! Dust is your new enemy!"
+
+#. Key:	T_LEVEL_3_DESCRIPTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_LEVEL_3_DESCRIPTION"
+msgid "T_LEVEL_3_DESCRIPTION"
+msgstr "More enemies... Grimelings will buff other enemies, but now you have consumables! Use them!"
+
+#. Key:	T_LEVEL_4_DESCRIPTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_LEVEL_4_DESCRIPTION"
+msgid "T_LEVEL_4_DESCRIPTION"
+msgstr "Mopressor is a new way to fight. Perfect for this new variation of Oozers!"
+
+#. Key:	T_LEVEL_5_DESCRIPTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_LEVEL_5_DESCRIPTION"
+msgid "T_LEVEL_5_DESCRIPTION"
+msgstr "Short shift! Use everything you know as efficiently as ever."
+
+#. Key:	T_LEVEL_6_DESCRIPTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_LEVEL_6_DESCRIPTION"
+msgid "T_LEVEL_6_DESCRIPTION"
+msgstr "Dirtminator will come in handy for this amount of Dust... and Ash Bunnies! They may be hiding in their dust..."
+
+#. Key:	T_LEVEL_7_DESCRIPTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_LEVEL_7_DESCRIPTION"
+msgid "T_LEVEL_7_DESCRIPTION"
+msgstr "Enemies seem to have increased their effort to dirty. New day, same job!"
+
+#. Key:	T_LEVEL_8_DESCRIPTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_LEVEL_8_DESCRIPTION"
+msgid "T_LEVEL_8_DESCRIPTION"
+msgstr "Another short shift! Remember, efficiency is key. Use your loudout to its maximum potential!"
+
+#. Key:	T_LEVEL_9_DESCRIPTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_LEVEL_9_DESCRIPTION"
+msgid "T_LEVEL_9_DESCRIPTION"
+msgstr "Kaios seems to be up to no good. But your job is still the same! Crush these monsters quickly!"
+
+#. Key:	T_LEVEL_ENDLESS_DESCRIPTION
+#. SourceLocation:	/Game/Data/StringTables/ST_UI.ST_UI
+#: /Game/Data/StringTables/ST_UI.ST_UI
+msgctxt "ST_UI,T_LEVEL_ENDLESS_DESCRIPTION"
+msgid "T_LEVEL_ENDLESS_DESCRIPTION"
+msgstr "T_LEVEL_ENDLESS_DESCRIPTION"
+

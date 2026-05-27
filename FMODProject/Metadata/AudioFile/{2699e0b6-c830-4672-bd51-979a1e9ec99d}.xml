@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{2699e0b6-c830-4672-bd51-979a1e9ec99d}">
+		<property name="assetPath">
+			<value>SoundFX/postBeta/auroraDustBunny/mmmm/dustBunny_mm_16.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.9585260770975057</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{29e46ac1-d866-4f84-87b1-b5857773a619}</destination>
+		</relationship>
+	</object>
+</objects>

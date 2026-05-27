@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{5e1d2e22-0697-4369-8268-4fb57ceeb58c}">
+		<property name="name">
+			<value>isArmored</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7e6caf7d-f5fe-43a6-82c8-79da2270d7fd}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cd996b65-ff96-410b-93b2-0388425eacc2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cd996b65-ff96-410b-93b2-0388425eacc2}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

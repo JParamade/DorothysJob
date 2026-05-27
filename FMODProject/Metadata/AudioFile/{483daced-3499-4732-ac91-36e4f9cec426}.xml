@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{483daced-3499-4732-ac91-36e4f9cec426}">
+		<property name="assetPath">
+			<value>SoundFX/gold/internetSounds/balloon-deflate-83447.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.472</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{29e46ac1-d866-4f84-87b1-b5857773a619}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{3c6569bd-1af8-44a7-ae16-646a1c6ac2b1}">
+		<property name="name">
+			<value>loopStop_dustySpecial</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3aa95c97-ab0f-42de-9801-5c502fc59c84}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{341da5a1-8607-4973-a29a-49702ff02a3c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{341da5a1-8607-4973-a29a-49702ff02a3c}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

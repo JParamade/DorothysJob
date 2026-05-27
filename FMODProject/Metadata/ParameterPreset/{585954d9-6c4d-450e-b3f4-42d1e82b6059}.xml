@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{585954d9-6c4d-450e-b3f4-42d1e82b6059}">
+		<property name="name">
+			<value>typewriter_characterIndex</value>
+		</property>
+		<relationship name="folder">
+			<destination>{de7e3aa7-9c64-44d8-a568-8f90175bd139}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3e14a0ef-dc48-4756-b86c-2cd207564c04}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3e14a0ef-dc48-4756-b86c-2cd207564c04}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

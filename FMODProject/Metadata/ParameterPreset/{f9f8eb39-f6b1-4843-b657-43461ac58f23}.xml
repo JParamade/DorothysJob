@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{f9f8eb39-f6b1-4843-b657-43461ac58f23}">
+		<property name="name">
+			<value>isDorothy_dirty</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ca6a0d9c-4b2b-40d1-937f-b8988dcfd2e8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b3feba98-2cd6-4d29-a054-4368e1ea04b0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b3feba98-2cd6-4d29-a054-4368e1ea04b0}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

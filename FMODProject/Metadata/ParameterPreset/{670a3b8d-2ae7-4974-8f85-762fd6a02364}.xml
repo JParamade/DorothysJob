@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{670a3b8d-2ae7-4974-8f85-762fd6a02364}">
+		<property name="name">
+			<value>isPunch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3aa95c97-ab0f-42de-9801-5c502fc59c84}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c74ebf45-beed-4c2f-b469-429566f0c991}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c74ebf45-beed-4c2f-b469-429566f0c991}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

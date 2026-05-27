@@ -1,0 +1,15 @@
+# Ignore intermediate files and caches
+*.cache
+*.log
+*.user
+*.csproj
+*.sln
+
+# Ignore autosave backups
+*.autosave
+
+# Ignore the backup folder (optional)
+Backup/
+
+# Ignore the FMOD workspace file (user-specific)
+*.fspro.user

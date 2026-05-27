@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{951d0016-b52e-43aa-8d3e-b8b7ab0b4c7a}">
+		<property name="name">
+			<value>loopStop_dirtminatorCleanup</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0e61b671-1c3f-4961-8a63-5aa984901070}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c6ab1ec8-153a-4585-af14-b9ec9484d155}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c6ab1ec8-153a-4585-af14-b9ec9484d155}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

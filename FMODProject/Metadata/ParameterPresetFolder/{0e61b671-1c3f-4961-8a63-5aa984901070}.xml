@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPresetFolder" id="{0e61b671-1c3f-4961-8a63-5aa984901070}">
+		<property name="name">
+			<value>dirtminator</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6815fd91-54ca-4e03-97b8-d68c46f2a98a}</destination>
+		</relationship>
+	</object>
+</objects>

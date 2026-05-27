@@ -1,0 +1,29 @@
+#include "/Engine/Public/Platform.ush"
+
+Texture2D<float4> LiquidRenderTarget;
+Texture2D<float4> DustRenderTarget;
+RWBuffer<int> Output;
+
+[numthreads(THREADS_X, THREADS_Y, THREADS_Z)]
+void CalculateDirtnessShader(
+	uint3 DispatchThreadId : SV_DispatchThreadID,
+	uint GroupIndex : SV_GroupIndex)
+{
+    // Get texture dimensions
+    uint2 TextureSize;
+    LiquidRenderTarget.GetDimensions(TextureSize.x, TextureSize.y);
+    
+    // Skip out-of-bounds threads
+    if (DispatchThreadId.x >= TextureSize.x || DispatchThreadId.y >= TextureSize.y)
+        return;
+
+    // Get the thread's pixel
+    float4 liquidColor = LiquidRenderTarget.Load(int3(DispatchThreadId.xy, 0));
+    float4 dustColor = LiquidRenderTarget.Load(int3(DispatchThreadId.xy, 0));
+    
+    // Checks if it is dirty
+    if (liquidColor.r > 0.5 || liquidColor.g > 0.5 || liquidColor.b > 0.5 || dustColor.r > 0.5 || dustColor.g > 0.5 || dustColor.b > 0.5)
+    {
+        InterlockedAdd(Output[0], 1);
+    }
+}

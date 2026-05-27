@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{27febc56-a2d5-49a1-a01b-e9498494dcfe}">
+		<property name="name">
+			<value>shotTier</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0e61b671-1c3f-4961-8a63-5aa984901070}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8fe2d368-726f-43c4-abc9-264f35b2fca5}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8fe2d368-726f-43c4-abc9-264f35b2fca5}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

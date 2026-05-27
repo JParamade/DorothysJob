@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPresetFolder" id="{ca6a0d9c-4b2b-40d1-937f-b8988dcfd2e8}">
+		<property name="name">
+			<value>combatTracks</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5266415b-ff17-43d9-ad12-25001254a4d1}</destination>
+		</relationship>
+	</object>
+</objects>

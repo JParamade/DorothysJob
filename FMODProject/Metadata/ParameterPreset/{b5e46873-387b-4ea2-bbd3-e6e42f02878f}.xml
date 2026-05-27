@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b5e46873-387b-4ea2-bbd3-e6e42f02878f}">
+		<property name="name">
+			<value>isRoom_dirty</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ca6a0d9c-4b2b-40d1-937f-b8988dcfd2e8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{fff34784-f048-4a7f-b32c-91acbe17c911}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{fff34784-f048-4a7f-b32c-91acbe17c911}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

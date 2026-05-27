@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPresetFolder" id="{7e6caf7d-f5fe-43a6-82c8-79da2270d7fd}">
+		<property name="name">
+			<value>washeeFlashee</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6815fd91-54ca-4e03-97b8-d68c46f2a98a}</destination>
+		</relationship>
+	</object>
+</objects>

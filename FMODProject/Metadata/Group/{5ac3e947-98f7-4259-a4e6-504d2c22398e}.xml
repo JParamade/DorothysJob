@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{5ac3e947-98f7-4259-a4e6-504d2c22398e}">
+		<property name="volume">
+			<value>-1.5</value>
+		</property>
+		<property name="name">
+			<value>WeaponsAndDorothy</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{0e4c96c3-7473-481e-b978-514e248ff81a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c6d043a3-d724-4b85-b458-fcca8e97afdb}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{03e86fd8-c4c0-42a6-85e3-a745974df133}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{0e4c96c3-7473-481e-b978-514e248ff81a}">
+		<relationship name="effects">
+			<destination>{53216314-f4be-4430-92f3-740517821a43}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c6d043a3-d724-4b85-b458-fcca8e97afdb}" />
+	<object class="MixerBusFader" id="{53216314-f4be-4430-92f3-740517821a43}" />
+</objects>

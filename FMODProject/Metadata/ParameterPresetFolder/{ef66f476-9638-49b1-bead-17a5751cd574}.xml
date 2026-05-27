@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPresetFolder" id="{ef66f476-9638-49b1-bead-17a5751cd574}">
+		<property name="name">
+			<value>moppressor</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6815fd91-54ca-4e03-97b8-d68c46f2a98a}</destination>
+		</relationship>
+	</object>
+</objects>
