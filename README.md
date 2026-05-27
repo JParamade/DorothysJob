@@ -29,10 +29,10 @@ This repository exists to highlight my **technical contributions** to the projec
 - Implemented **C++ binding logic** to ensure seamless communication between UI and gameplay systems
 
 Relevant code:
-- [`GeneralFocusManager.cpp`](./Source/DorothysJob/UI/Focus/GeneralFocusManager.cpp) - Global focus navigation system
-- [`SpecificFocusManager.cpp`](./Source/DorothysJob/UI/Focus/SpecificFocusManager.cpp) - Per-menu focus management
-- [`BasePlayerController.cpp`](./Source/DorothysJob/Controller/BasePlayerController.cpp) - Input-aware UI control logic
-- [`DialogueScreen.cpp`](./Source/DorothysJob/UI/Menus/Dialogue/DialogueScreen.cpp) - Representative UI implementation
+- [`GeneralFocusManager`](./Source/DorothysJob/UI/Focus/GeneralFocusManager.cpp) - Global focus navigation system
+- [`SpecificFocusManager`](./Source/DorothysJob/UI/Focus/SpecificFocusManager.cpp) - Per-menu focus management
+- [`PlayerController`](./Source/DorothysJob/Controller/BasePlayerController.cpp) - Input-aware UI control logic
+- [`DialogueScreen`](./Source/DorothysJob/UI/Menus/Dialogue/DialogueScreen.cpp) - Representative UI implementation
 
 ---
 
