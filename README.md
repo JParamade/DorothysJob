@@ -10,13 +10,13 @@ This repository is a **showcase fork** of *Dorothy’s Job*, created for portfol
 
 *Dorothy’s Job* is a frenetic and comedic isometric twin-stick shooter where players control Dorothy, a muscular maid tasked with cleaning enemy-infested levels using deadly mops, vacuums, and outrageous cleaning tools.
 
-This repository exists to highlight my **technical contributions** to the project, with a focus on **User Interface systems**, **Audio programming**, and their **integration into gameplay**.
+This repository exists to highlight my **technical contributions** to the project, with a focus on **User Interface systems**, **audio programming**, and their integration into gameplay.
 
 ---
 
 ## My Role & Responsibilities
 
-**Role:** Audio Programmer & User Interface Programmer
+**Role:** UI & Audio Programmer
 
 ### UI Programming & Navigation
 
@@ -29,10 +29,10 @@ This repository exists to highlight my **technical contributions** to the projec
 - Implemented **C++ binding logic** to ensure seamless communication between UI and gameplay systems
 
 Relevant code:
-- [`/Source/.../UI/FocusNavigation`](./Source) — Core focus navigation system  
-- [`/Source/.../UI/Widgets`](./Source) — Custom UMG widgets and bindings  
-
-> Folder names may be simplified or curated for showcase purposes.
+- [`GeneralFocusManager.cpp`](./Source/DorothysJob/UI/Focus/GeneralFocusManager.cpp) - Global focus navigation system
+- [`SpecificFocusManager.cpp`](./Source/DorothysJob/UI/Focus/SpecificFocusManager.cpp) - Per-menu focus management
+- [`BasePlayerController.cpp`](./Source/DorothysJob/Controller/BasePlayerController.cpp) - Input-aware UI control logic
+- [`DialogueScreen.cpp`](./Source/DorothysJob/UI/Menus/Dialogue/DialogueScreen.cpp) - Representative UI implementation
 
 ---
 
@@ -40,15 +40,15 @@ Relevant code:
 
 - Fully integrated **FMOD** into the project, including:
   - Event-driven audio logic
-  - Snapshots
   - Audio settings management
 - Designed and implemented a **custom Audio Manager subsystem**, providing:
   - Centralized and global access to FMOD functionality
   - Clean and scalable audio control across gameplay systems
 
 Relevant code:
-- [`/Source/.../Audio/AudioManager`](./Source) — Global audio management subsystem  
-- [`/Source/.../Audio/FMOD`](./Source) — FMOD integration and helpers  
+- [`AudioManager`](./Source/DorothysJob/Manager/GameInstanceSubsystem/AudioManager.cpp) - Global audio management subsystem
+- [`BaseWeaponAudioComponent`](./Source/DorothysJob/Component/Weapon/BaseWeaponAudioComponent.cpp) - Weapon audio system
+- [`AudioSettingsManager`](./Source/DorothysJob/Settings/AudioSettingsManager.cpp) - Audio configuration handling
 
 ---
 
@@ -56,12 +56,11 @@ Relevant code:
 
 - Designed and implemented a **modular consumable (power-up) system**, including:
   - Core architecture and integration with the player character
-  - A scalable design allowing easy expansion with new consumable types
-- Contributed to **weapon mechanics** and **enemy behavior scripting**, supporting the overall combat design
+  - Scalable design for easy expansion with new consumable types
+- Contributed to **weapon mechanics** and **enemy behavior scripting**, supporting combat design
 
 Relevant code:
-- [`/Source/.../Gameplay/Consumables`](./Source)  
-- [`/Source/.../Gameplay/Weapons`](./Source)  
+- [`Consumables`](./Source/DorothysJob/Consumables)
 
 ---
 
