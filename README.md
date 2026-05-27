@@ -1,11 +1,3 @@
-## Dorothy’s Job — Showcase Repository
-
-This repository is a **showcase fork** of *Dorothy’s Job*, created for portfolio and evaluation purposes.
-
-*Dorothy’s Job* is a humorous game developed by **Bola 13 Studios** and **U-tad**, published on **Steam on October 24th, 2024**.
-
----
-
 ## About the Project
 
 *Dorothy’s Job* is a frenetic and comedic isometric twin-stick shooter where players control Dorothy, a muscular maid tasked with cleaning enemy-infested levels using deadly mops, vacuums, and outrageous cleaning tools.
