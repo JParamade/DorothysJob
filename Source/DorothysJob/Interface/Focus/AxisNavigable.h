@@ -24,17 +24,17 @@ class DOROTHYSJOB_API IAxisNavigable
 
 public:
   /**
-   * @brief -> Handles axis-based input events, such as movement or navigation.
-   * @param _vAxisValue -> 2D vector representing the axis input values.
+   * @brief Handles axis-based input events, such as movement or navigation.
+   * @param _vAxisValue 2D vector representing the axis input values.
    */
   virtual void OnAxisInput(FVector2D _vAxisValue) = 0;
 
   /**
-   * @brief -> Called when this object gains interaction focus or becomes active.
+   * @brief Called when this object gains interaction focus or becomes active.
    */
   virtual void OnGainInteraction() = 0;
   /**
-   * @brief -> Called when this object loses interaction focus or becomes inactive.
+   * @brief Called when this object loses interaction focus or becomes inactive.
    */
   virtual void OnLoseInteraction() = 0;
 };

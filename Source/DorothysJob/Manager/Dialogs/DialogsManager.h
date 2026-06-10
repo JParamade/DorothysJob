@@ -1,8 +1,9 @@
 /************************************************************************
- * @description: The Dialog system manager.
- * @author: Aurora Fern�ndez
+ * @description: Manages the dialog sequences in the game, including starting, ending, and progressing through dialog lines.
+ * @author: Aurora Fernandez
  * @date: 30/08/2025
- * @edited_by: Josephine Esposito - 07/09/2025
+ * @edited_by: Josephine Esposito
+ *					   Jaime Paramo
  ************************************************************************/
 
 #pragma once
@@ -18,121 +19,150 @@ struct FDialogSequence;
 struct FDialogData;
 class UBaseGameInstance;
 
-#pragma region | Delegates
+// Delegates
 DECLARE_MULTICAST_DELEGATE(FOnLineStarted);
 DECLARE_MULTICAST_DELEGATE_OneParam(FOnDialogLineReceived, FDialogData);
 DECLARE_MULTICAST_DELEGATE(FOnDialogFinish);
-#pragma endregion
 
-/**
- * This represent the manager of the dialog system.
- */
 UCLASS()
-class DOROTHYSJOB_API UDialogsManager : public UObject
-{
+class DOROTHYSJOB_API UDialogsManager : public UObject {
 	GENERATED_BODY()
 	
 public:
-
 	/**
-	 * @brief Initialice class in Game Istance, take the data asset.
-	 * @param InDialogDataAsset The data asset of the dialog.
+	 * @brief Initialize the dialog manager, setting the initial game state and loading the dialog data from the Game Instance.
 	 */
 	UFUNCTION()
 	void Init();
 
+	/**
+   * @brief Pointer to the current dialog data being displayed.
+   */
 	FDialogData* m_pDialogData;
 
+	/**
+	 * @brief Array of pointers to dialog sequences, where each sequence contains multiple dialog scenes.
+	 */
 	TArray<FDialogData*> m_lDialogSequences;
 
-#pragma region | Delegates
-	/* Delegate for when a line has started */
-	FOnLineStarted OnLineStarted;
-
-	/* Delegate for when a line needs to be printed */
-	FOnDialogLineReceived OnDialogLineReceived;
-
-	/* Delegate for when te dialog finish */
-	FOnDialogFinish OnDialogFinish;
-#pragma endregion
-
-#pragma region | Dialog Fuctions
 	/**
-	 * @brief Start a dialog sequence, save the dialog lines of the secuence and printed first line.
-	 * @param _iSequenceID the sequence name/id
+   * @brief Delegate for when a line starts to be printed.
+	 */
+	FOnLineStarted OnLineStarted;
+	/**
+   * @brief Delegate for when a dialog line is received and ready to be displayed.
+	 */
+	FOnDialogLineReceived OnDialogLineReceived;
+	/**
+   * @brief Delegate for when a dialog sequence finishes.
+	 */
+	FOnDialogFinish OnDialogFinish;
+
+	/**
+	 * @brief Initialize a dialog sequence based on the provided sequence ID.
+   * @param _iSequenceID The ID of the dialog sequence to initialize.
 	 */
 	void OnInitSequence(FName _iSequenceID);
 
 	/**
-	 * @brief Restart all when the sequence ends.
+   * @brief End the current dialog sequence, resetting all related variables and broadcasting the OnDialogFinish event.
 	 */
 	void OnEndSequence();
 
 	/**
-	 * @brief Print the next dialog line.
+	 * @brief Progress to the next dialog line in the current sequence.
 	 */
 	void OnNextDialogLine();
 
 	/**
-	 * @brief End sequence when dialog is skip.
+	 * @brief Skip the current dialog sequence.
 	 */
 	void OnSkipDialog();
 
 	/**
-	 * @brief Broadcast the next line.
-	 * @param _oCurrentDialogBloc The next line that is going to be printed.
+   * @brief Broadcast the current dialog scene to be displayed, using the OnDialogLineReceived delegate.
+   * @param _oCurrentDialogScene The dialog scene data to broadcast for display.
 	 */
-	//void BroadcastDialog(FDialogBlock _oCurrentDialogBloc);
 	void BroadcastDialog(FDialogData _oCurrentDialogScene);
-
+	/**
+   * @brief Set the current game state status, which can be used to manage transitions between dialog sequences and normal gameplay.
+   * @param _status The new game state status to set for the dialog manager.
+	 */
 	void SetCurrentStatus(EBaseGameState _status);
-#pragma endregion
 
 private:
-
+	/**
+   * @brief The current game state status, which can be used to manage transitions between dialog sequences and normal gameplay.
+	 */
 	EBaseGameState m_oActualStatus;
-#pragma region | Variables
-
+	/**
+	 * @brief The ID of the current dialog sequence being displayed.
+	 */
 	FName m_sCurrentDialogId;
 
-	/* The current dialog sequence. */
+	/**
+   * @brief Pointer to the current dialog sequence being displayed, which contains multiple dialog scenes.
+	 */
 	const FDialogSequence* m_pCurrentDialogSequence;
-
+	/**
+   * @brief Array of pointers to the current dialog scenes that are part of the active dialog sequence, which will be displayed in order.
+	 */
 	TArray<FDialogData*> m_lCurrentScenes;
-
+	/**
+   * @brief Pointer to the current dialog scene being displayed, which contains the dialog lines and related data for that scene.
+	 */
 	const FDialogData* m_pCurrentDialogScene;
 
-	/* The current line thats going to be printed. */
+	/**
+	 * @brief Array of dialog blocks that are currently being displayed.
+	 */
 	TArray<FDialogBlock> m_oCurrentDialogs;
 
-	/* How many lines has the sequence. */
+	/**
+	 * @brief The total number of dialog lines in the current dialog sequence, which is used to manage progression through the sequence.
+	 */
 	int m_iCurrentDialogsLines;
 
-	/* The current dialog line index. */
+	/**
+	 * @brief The index of the current dialog line being displayed within the current dialog sequence.
+	 */
 	int m_iCurrentDialogsIndex;
 
 	/**
-	 * @brief The reference of the game instance
+	 * @brief Pointer to the Game Instance.
 	 */
 	UBaseGameInstance* m_pGameInstance;
-#pragma endregion
 
 public:
-	/* A bool to see if the line has finish printed or no.*/
+	/**
+	 * @brief Flag to indicate whether the current dialog line has finished printing.
+	 */
 	bool m_bLineIsPrinted = true;
 
-#pragma region | Getters&Setters
-	//const FDialogSequence* GetDialogSequenceByID(FName _iSequenceID);
+	/**
+	 * @brief Retrieve the dialog sequence data for a given sequence name from the Game Instance's dialog data map.
+   * @param _sSequenceName The name of the dialog sequence to retrieve.
+	 * @return An array of pointers to FDialogData representing the dialog scenes in the requested sequence.
+	 */
 	const TArray<FDialogData*> GetDialogSequenceByID(FName _sSequenceName);
 
-	//const FDialogBlock& GetCurrentDialogToDisplay();
+	/**
+	 * @brief Retrieve the current dialog scene data that should be displayed.
+	 * @return A reference to the FDialogData struct representing the current dialog scene to be displayed.
+	 */
 	const FDialogData& GetCurrentDialogToDisplay();
-
+	/**
+	 * @brief Set the flag indicating whether the current dialog line has finished printing.
+	 * @param _bIsPrinted A boolean value to set the m_bLineIsPrinted flag.
+	 */
 	void SetDialogHasStart(bool _bIsPrinted);
-
+	/**
+   * @brief Get the flag indicating whether the current dialog line has finished printing.
+   * @return A boolean value indicating whether the current dialog line has finished printing (true) or is still being printed (false).
+	 */
 	bool GetDialogHasStart();
-
+	/**
+	 * @brief Check if there is a next dialog line to display in the current sequence and progress to it if available.
+	 */
 	void CheckNextDialogue();
-#pragma endregion
-
 };

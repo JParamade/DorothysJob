@@ -23,26 +23,26 @@ class DOROTHYSJOB_API IFocusable
   GENERATED_BODY()
 public:
   /**
-  * @brief -> Called when the element gains focus. Use this to trigger visual or logical changes when the UI element becomes the active or highlighted element.
+  * @brief Called when the element gains focus. Use this to trigger visual or logical changes when the UI element becomes the active or highlighted element.
   */
   virtual void OnGainFocus() = 0;
 
   /**
-   * @brief -> Called when the element loses focus. Use this to revert changes or handle logic when the UI element is no longer the active one.
+   * @brief Called when the element loses focus. Use this to revert changes or handle logic when the UI element is no longer the active one.
    */
   virtual void OnLoseFocus() = 0;
 
   /**
-   * @brief -> Called when the element is being pressed.
+   * @brief Called when the element is being pressed.
    */
   virtual void OnPressed() = 0;
   /**
-   * @brief -> Called when the element has being released.
+   * @brief Called when the element has being released.
    */
   virtual void OnReleased() = 0;
 
   /**
-   * @brief -> Executes the action associated with the currently focused UI element.
+   * @brief Executes the action associated with the currently focused UI element.
    */
   virtual void ExecuteAction() = 0;
 };
